@@ -1,0 +1,65 @@
+// page-specific css for epg film pages
+
+@import '../base';
+
+
+
+table#episodes_tbl td.tdcpt {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+div.crumbsmarginfix div.row,
+div.crumbsmarginfix div.row ol{
+  margin: 0;
+}
+
+
+
+
+span.durapprox {	background-color: #fdd;}
+span.durreal {		background-color: $durforc;}
+
+span.durapprox,
+span.durreal {
+  padding: 2px 7px;
+}
+
+
+
+table.serial_usage {
+
+  &.dtl {
+    width: 500px !important;
+  }
+
+  td {
+    vertical-align: middle !important;
+  }
+
+  td.termemit {
+    width: 250px;
+  }
+  td.ep_cur {
+    font-weight: bold;
+  }
+  td.ep_cur.err {
+    color: red;
+  }
+  td.rerun {
+    width: 200px;
+  }
+  td.ctrl {
+    width: 100px;
+  }
+  td.ideal {
+    font-style: italic;
+    padding-left: 50px;
+  }
+  input.btn {
+    margin-left: 45px;
+    margin-top: 0 !important;
+  }
+}

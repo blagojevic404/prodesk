@@ -1,0 +1,59 @@
+[months]
+1 January
+2 February
+3 March
+4 April
+5 May
+6 June
+7 July
+8 August
+9 September
+10 October
+11 November
+12 December
+[/months]
+
+[wdays]
+1 Monday
+2 Tuesday
+3 Wednesday
+4 Thursday
+5 Friday
+6 Saturday
+7 Sunday
+[/wdays]
+
+[wdays_short]
+1 MON
+2 TUE
+3 WED
+4 THU
+5 FRI
+6 SAT
+7 SUN
+[/wdays_short]
+
+[wdays_tiny]
+1 Mo
+2 Tu
+3 We
+4 Th
+5 Fr
+6 Sa
+7 Su
+[/wdays_tiny]
+
+[range]
+today Today
+yesterday Yesterday
+last7days Last 7 days
+last30days Last 30 days
+this_month This month
+last_month Last month
+
+applyLabel OK
+cancelLabel Cancel
+fromLabel From
+toLabel To
+customRangeLabel Other period
+[/range]

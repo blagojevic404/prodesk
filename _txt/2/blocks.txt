@@ -1,0 +1,107 @@
+
+[readspeed]
+Na graničnim prelazima Doljani i Izačić na izlazu iz BiH čeka se oko tri časa, dok se na graničnom prelazu Gabela Polje čeka čas i po.
+Na ostalim graničnim prelazima zadržavanja trenutno nisu duža od 30 minuta, saopšteno je iz Auto-moto saveza Republike Srpske.
+Zbog radova u Hrvatskoj, za saobraćaj teretnih vozila zatvoreni su granični prelazi Gorica - Vinjani Donji i Brčko - Gunja.
+[/readspeed]
+
+[rs_instruction]
+<ul>
+<li>Pritisnite taster START, pročitajte tekst, i pritisnite opet isti taster.
+Program će izračunati brzinu čitanja. Ukucajte naziv i snimite.<br>
+Ili, ako želite ponoviti, pritisnite taster BRIŠI.
+<li>Tekst za čitanje možete mijenjati.
+<li>Možete snimiti više brzina čitanja pod različitim nazivima, npr brže i sporije čitanje.<br>
+Sa <span class='glyphicon glyphicon-thumbs-up'></span> je označena ona koja će se koristiti kao <i>default</i>.
+</ul>
+[/rs_instruction]
+
+[help_studio]
+<ul>
+<li>Ispod naslova emisije je traka sa imenima urednika i voditelja.<br>
+Klikom na <b>ime voditelja</b> u traci otvarate informaciju o brzini čitanja za određenog voditelja.<br>
+Ako ste Vi voditelj, onda ispod ove informacije dobijate još i
+posebne kontrole za <i>biranje</i> brzine čitanja - pod uslovom da ste snimili više
+različitih brzina. (Brzinu čitanja možete snimiti na stranici 'DESK > Postavke').<br>
+<li>Voditelja koji će čitati određeni tekst blok možete promijeniti klikom na dugme lijevo od tekst bloka.
+<li><b>Tekst blokovi za čitanje</b> su interaktivni. Duplim klikom otvarate polje za izmjene. Kliknite mimo polja da snimite izmjene.
+Ako želite da odustanete pritisnite <i>ESCAPE</i>.
+<li><b>Znak za fazu</b> je interaktivan. Dovoljno je pritisnuti kvadratić za fazu i podići ćete fazu za jedan stepen.
+<li>Kada završite izmjene, pritisnite <i>F5</i> da se na stranici prikažu preračunati termini.
+</ul>
+[/help_studio]
+
+[help_epgdur__epg]
+Kolone za trajanje – važeće i nevažeće*
+<p>Trajanje emisije može da se ručno postavi, npr <i>na početku</i> se obično unosi <i>planirano</i>
+trajanje određene emisije (recimo, 25:00 minuta).
+Takođe, Prodesk se trudi da izračuna <i>realno</i> trajanje (na osnovu trajanja elemenata),
+koje se može razlikovati od planiranog (recimo, nije ispalo 25:00 nego 26:18). <br>
+U tom slučaju imamo dva trajanja (planirano i izračunato).
+Kad je emisija <i>gotova</i> (kad je urednik obilježi da je SPREMNA, i pojavi se zelena kvaka ispred naslova)
+onda prednost dobija izračunato trajanje, a do toga važi planirano.<br>
+Ako i prije toga želite izbrisati planirano trajanje, dok je ono još uvijek važeće, možete to uraditi preko
+linka-prečice na oznaci za važeće trajanje.</p>
+<p>Važeće trajanje se prikazuje u lijevoj koloni, a nevažeće u desnoj.</p>
+<p>Planirano trajanje je označeno tamno-zelenom, a izračunato trajanje svijetlo-zelenom bojom.</p>
+[/help_epgdur__epg]
+
+[help_epgdur__scnr]
+Kolone za trajanje – važeće i nevažeće*
+<p>Trajanje vijesti može da se ručno postavi, npr urednik <i>na početku</i> obično unosi <i>planirano</i>
+trajanje određene vijesti (recimo, 01:30 minut).
+Takođe, Prodesk se trudi da izračuna <i>realno</i> trajanje, koje se može razlikovati od planiranog
+(recimo, nije ispalo 01:30 nego 01:32). <br>
+U tom slučaju imamo dva trajanja (planirano i izračunato).
+Kad je vijest <i>gotova</i> (kad stigne u fazu GOTOVO) onda prednost dobija izračunato trajanje,
+a do toga važi planirano.<br>
+Ako i prije toga želite izbrisati planirano trajanje, dok je ono još uvijek važeće, možete to uraditi preko
+linka-prečice na oznaci za važeće trajanje.</p>
+<p>Važeće trajanje se prikazuje u lijevoj koloni, a nevažeće u desnoj.</p>
+<p>Planirano trajanje je označeno tamno-zelenom, a izračunato trajanje svijetlo-zelenom bojom.</p>
+[/help_epgdur__scnr]
+
+[help_epgterm]
+Kolona za termin: prečice*
+<p>Klikom na oznaku za termin otvara se
+<b>okvir za izmjene</b> u kojem su:
+<p><b><i>HMS</i></b> polja za promjenu termina
+(da potvrdite promjenu pritisnite taster ENTER, a da odustanete pritisnite ESC)
+<p><span class='glyphicon glyphicon-bell'></span> prečica za postavljanje termina na trenutno vrijeme
+<p><span class='glyphicon glyphicon-remove'></span> prečica za brisanje
+(aktivna je jedino ako je termin prethodno uopšte postavljen)
+<p><span class='glyphicon glyphicon-asterisk'></span> prečica da se termin označi kao
+&quot;na čekanju&quot; <i>(samo za shemu)</i>
+[/help_epgterm]
+
+[help_mdfmulti]
+<p><b>PREČICE</b> u poljima za termin i poljima za trajanje:
+<ul>
+<li>Pritisnite <b>minus</b> (-) da izbrišete čitav termin ili trajanje
+<li>Pritisnite <b>zvjezdicu</b> (*) da čitav termin označite kao &quot;na čekanju&quot; <i>(samo za shemu)</i>
+<li>Pritisnite <b>tačku</b> ili <b>zarez</b> (.,) da prebacite kursor u sljedeće polje
+</ul>
+[/help_mdfmulti]
+
+[help_mdfprg]
+<p><b>POSEBNE EMISIJE</b> &ndash; kojih nema u listi <br>(jer se emituju samo jednom ili tsl):</p>
+<p>U polje <b>Tema</b> napišite naziv emisije.</p>
+<p>Ako je potrebno dodati i temu, onda poslije naziva emisije kucajte znak ~ ili znak |, pa napišite i temu.</p>
+[/help_mdfprg]
+
+[help_epgweb]
+<p>Lijevo, na početku svakog reda, je zelenom ili crvenom bojom označeno da li emisija ide na <i>web streaming</i>,
+to jest da li će se emitovati preko web sajta.
+<p>Emisije koje treba snimiti za <i>Video-On-Demand (VOD)</i>, to jest koje će biti postavljene u video rubrici
+na web sajtu, obilježene su desno, znakom <span class='glyphicon glyphicon-download webvod'></span>.
+[/help_epgweb]
+
+[error404]
+Ovdje nema ništa..*
+Ako želite, možete se vratiti na <a href="javascript:window.history.back();">prethodnu stranicu</a>..
+Ili možda na <a href="/">startnu stranicu</a> programa..
+[/error404]
+
+[help_prompter]
+Da iskopirate tekst, samo pritisnite unutar polja..
+[/help_prompter]

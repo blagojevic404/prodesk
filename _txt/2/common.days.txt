@@ -1,0 +1,59 @@
+[months]
+1 Januar
+2 Februar
+3 Mart
+4 April
+5 Maj
+6 Juni
+7 Juli
+8 Avgust
+9 Septembar
+10 Oktobar
+11 Novembar
+12 Decembar
+[/months]
+
+[wdays]
+1 Ponedjeljak
+2 Utorak
+3 Srijeda
+4 Četvrtak
+5 Petak
+6 Subota
+7 Nedjelja
+[/wdays]
+
+[wdays_short]
+1 PON
+2 UTO
+3 SRI
+4 ČET
+5 PET
+6 SUB
+7 NED
+[/wdays_short]
+
+[wdays_tiny]
+1 Pn
+2 Ut
+3 Sr
+4 Čt
+5 Pt
+6 Sb
+7 Nd
+[/wdays_tiny]
+
+[range]
+today Danas
+yesterday Jučer
+last7days Zadnjih 7 dana
+last30days Zadnjih 30 dana
+this_month Ovaj mjesec
+last_month Prošli mjesec
+
+applyLabel OK
+cancelLabel Cancel
+fromLabel Od
+toLabel Do
+customRangeLabel Drugi period
+[/range]

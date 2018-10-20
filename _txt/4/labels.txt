@@ -1,0 +1,303 @@
+[common]
+
+// combo
+all [all]
+undefined [undefined]
+
+// header
+displayed Displayed at
+
+id ID
+default Default
+noth (none)
+
+body Text
+type Type
+dsc Description
+date Date
+time Time
+logs Logs
+note Note
+title Title
+name Name
+author Author
+update Update
+crew Roles
+duration Duration
+instruction Instruction
+group Group
+label Label
+alphconv Text converter
+printer Printing: size
+language Language
+search Search
+account Account
+name1 FirstName
+name2 LastName
+pass Password
+position Position
+
+// epg-dsk
+calc calculated
+forced planned
+stry Story
+task Task
+usage Usage
+cvr CG
+speaker Presenter
+read_speed Read speed
+epg Schema
+rundown Rundown
+program Program
+archive Archive
+website Website
+state State
+web_live Web Live
+web_vod Web VOD
+cg_copy_text Copy text
+cg_alphconv Text conversion (UTF&gt;DOS)
+average Average
+term Term
+production Production
+team Team
+jargon4_cam_single Story
+jargon4_cam_simple Presenter
+jargon3_cam_simple Reader
+jargon3_cam_vo VO
+dsc_epg Subtitles (for schema)
+
+// buttons
+cancel Cancel
+continue Continue
+delete Delete
+modify Modify
+save Save
+create Create
+import Import
+content Content
+restart Restart
+send Send
+close Close
+switch On/Off
+replacing Replace
+replace Replace
+opp_actv inactive/inactive
+opp_ready not ready/ready
+opp_yesno no/yes
+
+[/common]
+
+
+
+
+[ndx]
+
+atom_jargon Jargon (for news)
+channel Channel
+
+[/ndx]
+
+
+
+
+[hrm]
+
+chief Chief
+parent_group Parent-group
+
+worker Employee
+position Position
+fathername Father's name
+contract_type Contract type
+gender Gender
+opp_gender F/M
+admin Admin
+
+list List
+tree Tree
+
+abv A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+letter_cond Letter
+
+[/hrm]
+
+
+
+
+[epg]
+
+place Place
+target Target
+theme Theme
+error Error
+filter Filter
+template Template
+chose_template Chose template
+bcasts Broadcasts
+client Client
+clients Clients
+link Link
+unlink Unlink
+
+// Term types. Do not delete!
+fixed fixed
+rel relative
+
+// Spice types. Do not delete!
+mkt Marketing
+prm Promotion
+clp Clip
+
+// Film and spice sections. Do not delete!
+item Item
+block Block
+contract Contract
+agent Agency
+items Items
+blocks Blocks
+contracts Contracts
+agents Agencies
+
+// film
+select_all Select all
+value Value
+licence Licence
+licence_type Licence type
+episodes Episodes
+episode_count Episode count
+format Format
+delivered Delivered
+bc_max Broadcasts max
+bc_numbers Broadcasts counter
+bc_list Broadcasts list
+verification Verification
+approx Approximately
+finish Finish
+start Start
+correct Correct
+recent Recent
+sum Sum
+auto-correct Auto-corrrection
+opp_fulfill fulfilled/not fulfilled
+
+// film dsc
+title_original Original title
+country Country
+year Year
+director Director
+writer Writer
+actors Actors
+dsc_short Announcement
+dsc_long Synopsis
+genre Genre
+channels Channels
+seasons Seasons (for schema)
+
+// mdf_single
+material_type Material type
+parental Parental Guidelines (for schema)
+record Record for rerun
+controlroom SCR
+premiere Premiere
+
+// buttons
+delete_all Delete all
+start_empty_epg Start empty schema
+copy_another_epg Copy another schema
+import_epg_tmpl Import schema template
+
+// market plan
+mkt_plan Plan
+mkt_epg Real
+in_block_pos Position in block
+video_id Video ID
+block_newitem Add a new item to the block
+wrapclips Clips
+bumper Bumper
+not_found Not found
+other Other
+gratis Gratis
+
+// epg header btn tooltips
+show_note_ctrlz Show controls for notes in the elements
+show_cam_ctrlz Show controls for choosing the camera
+show_cam_vo Show controls for voiceover cadre
+show_cvr Show CG
+show_elm_text Show/hide the text of all elements
+show_text_ending Show the last words from the text
+show_hide show/hide
+
+do_ajax_uptodate Turn on automatic schedule up-to-date check
+epg_list_short Only live programs
+epg_list_progs Only programs and films
+
+[/epg]
+
+
+[dsk]
+
+followz Follow
+copies Copies
+phase Phase
+item Item
+unproofed Without proofreading
+pms Permissions
+pms_for for permissions
+opp_pms_loose Tight/Loose
+web_hide Do not show in web schedule
+epg_rerun Record for rerun
+epg_skip_dflt_tmpl_auto_import Auto import of default rundown template is off
+prgm_security Strict security rules (only editor can read stories)
+versions Versions
+ctrl_cam_only Only READER/CAM
+
+// settings
+start Start
+finito Finish
+clear Clear
+reader_colors Colors for presenters (in SCRIPT view)
+formula Formula
+text_len text length
+time time
+chars_per_sec chars per second
+
+[/dsk]
+
+
+[admin]
+
+cnt_users_active Number of active user accounts
+cnt_users_login The number of accounts which logged-in during the previous 1/7/30 days
+scrambler Scrambler
+janitor Janitor
+scheduler Scheduler
+
+[/admin]
+
+
+
+[mos]
+
+record Record
+label Label
+path Path
+tc-in tc IN
+tc-out tc OUT
+tc-in-out TC IN/OUT
+prep Preparation
+duration Duration
+
+[/mos]
+
+
+
+[list]
+
+results Results
+of_total of total
+sec sec.
+filter Filters
+period Period
+deleted_by Deleted by
+
+[/list]

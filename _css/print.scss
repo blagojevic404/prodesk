@@ -1,0 +1,330 @@
+// NOTE:
+// To see print css in the browser (Chrome):
+// 1. Open the Developer Tools (e.g. choose "INSPECT")
+// 2. Click the "Customize and control DevTools" hamburger menu button.
+// 3. Choose More tools > Rendering settings.
+// 4. Check the "Emulate CSS Media" checkbox at the Rendering tab and select the Print media type.
+
+@import 'base';
+
+
+
+@media print {
+
+
+  #z-navbar-top, #z-navbar-mdl, #z-navbar-btm, #footer, #warney, table#epg_table tr.tr_header,
+  .ghost, .sleepline,
+  div.btnbar, span.epg_ready,
+  table.scnheadtbl td.cpt span, table.scnheadtbl td.timer,
+  div.atom_dsc, div.cvr,
+  div.studio,
+  div.clndar, td.tframe,
+  span.webvod.off,
+  a[type=button]
+  {
+    display: none !important;
+  }
+
+  table#epg_table.spicer table.tblsheet td#numero {
+    visibility: hidden; // Using "display:none" on TD would remove the td itself, thereby messing up the table
+  }
+
+  a[href]:after { content:"" !important; }
+
+  div.content { padding: 0; }
+
+  div.headbar { border: none; border-bottom: 1px solid black !important; padding: 0 !important; margin-top:0; }
+
+
+
+  // EPG
+
+  table#epg_table {
+
+    td {
+      font-size: 16pt !important; // this value will be changed via JS:printer()
+      height: 20px ;
+      border: none;
+    }
+
+    tr.drop td { // SHEET
+      border: none;
+    }
+
+    td {
+      border-top: 19px solid white; // Linespace
+    }
+    td.tblsheet {
+      border-top: none !important;
+    }
+  }
+
+  table.tblsheet {
+    margin-bottom: 0 !important;
+
+    td {
+      border-top: none !important;
+      height: 20px !important;
+    }
+  }
+
+  table#epg_table {
+
+    &.epg table.tblsheet {  //:not(.spicer)
+      border-width: 1px;
+      border-color: black !important;
+    }
+
+    &.scnr span.lbl_linetyp {
+      padding: 1px 0;
+      font-size: 100%;
+    }
+  }
+
+
+
+  // SPICER
+
+  table#epg_table.spicer {
+
+    table.tblsheet {
+      border-width: 1px 0 1px 0;
+    }
+
+    span {
+
+      &.lbl_linetyp {
+        min-width: 0 !important;
+        padding-right: 10px;
+        font-size: 100%;
+      }
+
+      &.lbl_spcitem {
+        font-size: 90%;
+        padding: 0 20px 0 0;
+      }
+    }
+
+    td.dur {
+      min-width: 105px;
+
+      span.spacer {
+        width: 0;
+        display: inline;
+      }
+    }
+
+    a.cpt {
+      font-size: 90%;
+    }
+    table.tblsheet td.cpt.clp {
+      font-style: italic;
+    }
+
+    td.term {
+      width: 120px;
+      text-align:left;
+    }
+    table.tblsheet td.term {
+      opacity: 0;
+    }
+  }
+
+
+
+  // MKTPLAN
+
+  table.mktplan {
+
+    td {
+      font-size: 16pt !important; // this value will be changed via JS:printer()
+      height: 20px;
+      border: none;
+    }
+
+    td {
+      padding-right: 30px !important;
+    }
+    td:last-child {
+      padding-right: 0 !important;
+    }
+
+    tr.block td {
+      border-top: 1px solid black !important;
+      border-bottom: 0 solid black !important;
+      font-weight: bold;
+    }
+    tr:first-child.block td {
+      border-top: 0 solid black !important;
+    }
+    tr.item td {
+      border: none !important;
+      font-size: 120%;
+      padding: 0;
+    }
+    td.numero {
+      background-color: transparent !important;
+    }
+    td.cpt .lbl_right {
+      font-weight: normal;
+      font-size: 70%;
+    }
+  }
+
+
+
+  table#epg_table {
+
+    td.cpt { padding-top: 0 !important; }
+
+    td.dur {
+      min-width: 80px;
+      text-align: left;
+    }
+
+    &.tree td.dur,
+    &.tree table.tblsheet td.dur {
+      min-width: 120px;
+      text-align: center;
+    }
+    td#numero,
+    td.dur,
+    td.term {
+      vertical-align: top;
+    }
+
+    table.tblsheet {
+
+      td.dur,
+      td.term {
+        font-size: 80% !important;
+        vertical-align: bottom !important;
+      }
+    }
+  }
+
+
+  // This doesnt work in all Chrome versions, so I abandoned it..
+  //table.epgtable.studio table.epgtable.tblsheet {
+  //    page-break-after: always;
+  //    position:relative;
+  //}
+  //table.epgtable.studio tr:nth-last-child(2) table.epgtable.tblsheet {
+  //    page-break-after: auto;
+  //}
+
+  div.prompter_print {
+    page-break-after: always;
+    position: relative;
+    font-size: 16pt; // this value will be changed via JS:printer()
+
+    p {
+      font-size: 140%;
+      line-height: 2;
+    }
+    h1 {
+      margin-bottom: 30px;
+      font-size: 200%;
+    }
+  }
+
+  td.epgempt span, td.epgempt a { visibility: hidden !important; }
+  td.termhold span, td.termhold a { visibility: visible !important; } // on-hold terms
+
+  table#epg_table {
+
+    span.lblprog3 { border: 1px solid black; color: black; padding: 0 5px; font-size:90% !important; } //rerun
+
+    td.note { border-width:0 0 1px 0; border-bottom-color: #d2d6de;}
+
+    td.hole span { font-size: 100% !important; }
+
+    td.segmento {
+      font-style: italic;
+      border-bottom: 2px solid black !important;
+    }
+  }
+
+  button.typer {
+    text-align: left !important;
+    padding-left: 0;
+  }
+
+
+  table.scnheadtbl td { border: none !important;}
+
+  div.headbar span.channel { padding-bottom: 2px;}
+
+
+  div.atom_texter { width: 100% !important; } // STUDIO
+
+  td.weblive1 span { font-size: 125% !important; } // WEB
+
+  //.smallprint { font-size: 100% !important; }
+
+  .timeprint { margin: -4px 0 0 -1px; }
+
+  span.note { text-decoration: underline; }
+
+
+
+  // STORY
+
+  div.atom_dtl, div.atom_txt, span.dur, span.durcalc { padding: 0 !important; border: 0 !important; }
+
+  span.dur { margin-top: -40px !important; }
+  span.durcalc span { display: inline-block !important; }
+  div.btn-toolbar { margin:0 !important; }
+
+  div.atom_txt { min-height: 20px !important; }
+  div.atom_header { padding-bottom: 0 !important; }
+
+  div.atom_dtl {
+    border-bottom: 1px solid black !important;
+    margin-bottom: 15px;
+    font-size: 16pt; // this value will be changed via JS:printer()
+  }
+
+  // Fontsize
+  div.headbar h2 { font-size: 267%; }
+  div.prgm_cpt {
+    padding-bottom: 10px;
+    span { font-size: 161%; }
+  }
+  div.atom_header {
+    font-size: 161%;
+    span.label { font-size: 50%; vertical-align: 8px; }
+  }
+  div.atom_txt { font-size: 131% !important; } // Note: If text is too large, it will get broken on page breaks
+
+
+
+  // CRW
+
+  table.crw_print {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 7px;
+
+    tr:last-child td {
+      padding-bottom: 7px;
+    }
+
+    tr {
+      td:first-child {
+        padding-left: 10px;
+        padding-right: 30px;
+        text-transform: uppercase;
+        padding-top: 2px;
+        min-width: 200px;
+      }
+      td:last-child {
+        width: 100%;
+        font-size: 115%;
+      }
+    }
+  }
+
+}
+
+//@page { margin: 7mm auto; }

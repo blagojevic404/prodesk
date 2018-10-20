@@ -1,0 +1,31 @@
+@import 'base';
+
+
+@media print {
+
+  table#epg_table td.dur,
+  table.tblsheet td.dur {
+    min-width: 50px !important;
+  }
+
+  table#epg_table td {
+    border-top-width: 10px !important; // LINESPACE
+    font-size: 10pt !important; // this value will be changed via JS:printer()
+  }
+
+  table.crw_print {
+    font-size: 75% !important;
+
+    tr td:first-child {
+      min-width: 150px;
+    }
+  }
+
+  .smallprint {
+    font-size: 70% !important;
+  }
+
+  div.headbar h2 {
+    font-size: 180%;
+  }
+}

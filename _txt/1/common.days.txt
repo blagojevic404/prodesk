@@ -1,0 +1,59 @@
+[months]
+1 Јануар
+2 Фебруар
+3 Март
+4 Април
+5 Мај
+6 Јуни
+7 Јули
+8 Август
+9 Септембар
+10 Октобар
+11 Новембар
+12 Децембар
+[/months]
+
+[wdays]
+1 Понедјељак
+2 Уторак
+3 Сриједа
+4 Четвртак
+5 Петак
+6 Субота
+7 Недјеља
+[/wdays]
+
+[wdays_short]
+1 ПОН
+2 УТО
+3 СРИ
+4 ЧЕТ
+5 ПЕТ
+6 СУБ
+7 НЕД
+[/wdays_short]
+
+[wdays_tiny]
+1 Пн
+2 Ут
+3 Ср
+4 Чт
+5 Пт
+6 Сб
+7 Нд
+[/wdays_tiny]
+
+[range]
+today Данас
+yesterday Јуче
+last7days Задњих 7 дана
+last30days Задњих 30 дана
+this_month Овај мјесец
+last_month Прошли мјесец
+
+applyLabel ОК
+cancelLabel Cancel
+fromLabel Од
+toLabel До
+customRangeLabel Други период
+[/range]

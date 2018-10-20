@@ -1,0 +1,5 @@
+uname_error Погрешно корисничко име!
+prodesk ПроДеск 3
+uname Корисник
+pass Лозинка
+submit Настави

@@ -1,0 +1,24 @@
+// EPG Section-specific css
+
+
+@import '../base';
+
+
+
+
+iframe.cln_frm {
+  width: 100%;
+  height: 500px;
+  border: none;
+  background-color: #0000d2;
+}
+
+span.wrapclips {
+  color: #bbb;
+
+  b { color: #f00; }
+
+  table.mktplan td.plan.cpt & {
+    float: right;
+  }
+}

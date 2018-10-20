@@ -1,0 +1,303 @@
+[common]
+
+// combo
+all [све]
+undefined [није одређено]
+
+// header
+displayed Приказано у
+
+id ID
+default Дефолт
+noth (нема)
+
+body Текст
+type Врста
+dsc Опис
+date Датум
+time Вријеме
+logs Логови
+note Напомена
+title Наслов
+name Назив
+author Аутор
+update Ажурирање
+crew Улоге
+duration Трајање
+instruction Упутство
+group Група
+label Ознака
+alphconv Текст конвертор
+printer Штампање: величина
+language Језик
+search Претрага
+account Налог
+name1 Име
+name2 Презиме
+pass Лозинка
+position Позиција
+
+// epg-dsk
+calc израчунато
+forced планирано
+stry Вијест
+task Задатак
+usage Кориштење
+cvr ЕГО
+speaker Водитељ
+read_speed Брзина читања
+epg Шема
+rundown Сценарио
+program Емисија
+archive Архива
+website Веб-сајт
+state Стање
+web_live Емитовање уживо (Стриминг)
+web_vod Исјећи видео снимак (VOD)
+cg_copy_text Копирај текст
+cg_alphconv Конверзија текста (UTF&gt;DOS)
+average Оквирно
+term Термин
+production Производња
+team Редакција
+jargon4_cam_single Вијест
+jargon4_cam_simple Најава
+jargon3_cam_simple Reader
+jargon3_cam_vo VO
+dsc_epg Поднаслов (за шему)
+
+// buttons
+cancel Прекини
+continue Настави
+delete Избриши
+modify Измјени
+save Сачувај
+create Направи
+import Импорт
+content Садржај
+restart Рестарт
+send Пошаљи
+close Затвори
+switch Укључи/Искључи
+replacing Замјена
+replace Замијени
+opp_actv неактивно/активно
+opp_ready није спремно/спремно
+opp_yesno не/да
+
+[/common]
+
+
+
+
+[ndx]
+
+atom_jargon Жаргон (за вијести)
+channel Канал
+
+[/ndx]
+
+
+
+
+[hrm]
+
+chief Руководилац
+parent_group Над-група
+
+worker Радник
+position Дужност
+fathername Очево име
+contract_type Врста уговора
+gender Пол
+opp_gender Ж/М
+admin Админ
+
+list Листа
+tree Стабло
+
+abv А Б В Г Д Ђ Е Ж З И Ј К Л Љ М Н Њ О П Р С Т Ћ У Ф Х Ц Ч Џ Ш
+letter_cond На слово
+
+[/hrm]
+
+
+
+
+[epg]
+
+place Мјесто
+target Намјена
+theme Тема
+error Грешка
+filter Филтер
+template Шаблон
+chose_template Изабери шаблон
+bcasts Емитовање
+client Клијент
+clients Клијенти
+link Повезати
+unlink Раскинути
+
+// Term types. Do not delete!
+fixed фиксно
+rel релативно
+
+// Spice types. Do not delete!
+mkt Маркетинг
+prm Промоција
+clp Клип
+
+// Film and spice sections. Do not delete!
+item Предмет
+block Блок
+contract Уговор
+agent Агенција
+items Предмети
+blocks Блокови
+contracts Уговори
+agents Агенције
+
+// film
+select_all Означи све
+value Износ
+licence Лиценца
+licence_type Врста лиценце
+episodes Епизоде
+episode_count Број епизода
+format Формат
+delivered Испоручено
+bc_max Макс. број емитовања
+bc_numbers Бројач емитовања
+bc_list Листа емитовања
+verification Овјера
+approx Приближно
+finish Завршетак
+start Почетак
+correct Тачно
+recent Недавно
+sum Збир
+auto-correct Само-исправка
+opp_fulfill испуњен/неиспуњен
+
+// film dsc
+title_original Оригинални наслов
+country Земља
+year Година
+director Режисер
+writer Сценарист
+actors Глумци
+dsc_short Најава
+dsc_long Фабула
+genre Жанр
+channels Канали
+seasons Сезоне (за шему)
+
+// mdf_single
+material_type Врста материјала
+parental Минимална доб (за шему)
+record Снимити за репризу
+controlroom Режија
+premiere Премијера
+
+// buttons
+delete_all Избриши све
+start_empty_epg Започни празну шему
+copy_another_epg Копирај другу шему
+import_epg_tmpl Импортуј шаблон
+
+// market plan
+mkt_plan План
+mkt_epg Реал
+in_block_pos Позиција у блоку
+video_id Видео ИД
+block_newitem Додати нови предмет у блок
+wrapclips Шпице
+bumper Бампер
+not_found Није пронађено
+other Остало
+gratis Бесплатно
+
+// epg header btn tooltips
+show_note_ctrlz Приказати контроле за напомене у елементима
+show_cam_ctrlz Приказати контроле за дефинисање камера
+show_cam_vo Приказати контроле за покривалицу
+show_cvr Приказати ЕГО
+show_elm_text Прикажи/сакриј текст свих елемената
+show_text_ending Приказати задње ријечи из текста
+show_hide прикажи/сакриј
+
+do_ajax_uptodate Укључити аутоматску провјеру ажурности распореда
+epg_list_short Само емисије уживо
+epg_list_progs Само емисије и филмови
+
+[/epg]
+
+
+[dsk]
+
+followz Праћење
+copies Копије
+phase Фаза
+item Предмет
+unproofed Нелекторисано
+pms Дозволе
+pms_for за дозволе
+opp_pms_loose Строго/Опуштено
+web_hide Не приказивати у распореду
+epg_rerun Снимати за репризу
+epg_skip_dflt_tmpl_auto_import Искључен аутоматски импорт дефолт шаблона за сценарио
+prgm_security Строга сигурносна правила (само уредник може читати вијести)
+versions Верзије
+ctrl_cam_only Само ЧИТАЊЕ/КАМ
+
+// settings
+start Старт
+finito Готово
+clear Бриши
+reader_colors Боје за водитеље (у приказу СКРИПТ)
+formula Формула
+text_len дужина текста
+time вријеме
+chars_per_sec слова у секунди
+
+[/dsk]
+
+
+[admin]
+
+cnt_users_active Број активних налога
+cnt_users_login Број налога који су се улоговали у току претходних 1/7/30 дана
+scrambler Шифратор
+janitor Поспремање
+scheduler Scheduler
+
+[/admin]
+
+
+
+[mos]
+
+record Снимак
+label Ознака
+path Путања
+tc-in tc IN
+tc-out tc OUT
+tc-in-out TC IN/OUT
+prep Припрема
+duration Трајање
+
+[/mos]
+
+
+
+[list]
+
+results Резултати
+of_total од укупно
+sec сек.
+filter Филтери
+period Период
+deleted_by Избрисао
+
+[/list]

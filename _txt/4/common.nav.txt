@@ -1,0 +1,45 @@
+1 ProDesk
+2 Desk
+3 Organization
+7 Program
+8 <span class="glyphicon glyphicon-star"></span>
+
+31 Structure
+32 Employees
+35 My Group
+36 My Page
+
+22 Programs
+23 Teams
+24 CG
+27 News
+29 My Desk
+
+70 Plan
+71 Today
+72 Archive
+73 Templates
+74 Marketing
+75 Promotion
+76 Clips
+77 Film
+
+80 Overview
+81 Language
+82 Logs
+83 AD
+84 PHP
+85 Tester
+86 FTP
+87 Tools
+
+201 <span class="glyphicon glyphicon-home"></span>
+202 <span class="glyphicon glyphicon-wrench"></span>
+203 <span class="glyphicon glyphicon-trash"></span>
+
+204 Manual
+205 Settings
+206 Content
+207 Exit
+208 Recycle Bin
+209 Admin

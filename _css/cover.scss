@@ -1,0 +1,162 @@
+@import 'base';
+
+
+
+div.panel-group.cvr {
+
+  .panel {
+    border-radius: 0 0 3px 3px;
+    border: none;
+  }
+  .panel-heading, .panel {
+    //background-color: #e0e0e0;
+    color:#777;
+  }
+  .panel-body {
+    //border-color: #ccc !important;
+  }
+}
+
+div.panel-group span.badge {
+  background-color: #fff !important;
+  color: #777 !important;
+  border: 1px solid #ccc;
+  margin-left: 7px;
+  vertical-align: 2px;
+}
+
+
+
+
+div.cover div.header {
+  background-color: #e0e0e0;
+  color: #777;
+  border-radius: 4px 4px 0 0;
+  padding: 2px 9px;
+  margin-top: 7px;
+
+  a.cpt {
+    color: $text-black;
+    margin-left: 7px;
+  }
+  span.tc {
+    font-style: italic;
+    margin-left: 20px;
+  }
+  a.mdf {
+    margin: 0 5px;
+  }
+  a.conv {
+    margin: 0 10px 0 10px;
+  }
+  a.conv,
+  a.copy {
+    cursor: pointer;
+  }
+
+  a.disabled {
+    opacity: 0.1;
+  }
+
+  span.cvr_drop {
+    display: block;
+    overflow: auto;
+    cursor: ns-resize;
+  }
+}
+
+
+div.cover div.lblpage {
+  display: inline;
+  padding-left: 7px;
+
+  input {
+    padding: 0 5px;
+    height: 20px;
+    width: 80px;
+  }
+  div {
+    display: inline;
+    padding: 0 10px;
+    background-color: $field-bg;
+    color: #555;
+    border-radius: 2px;
+    font-weight: bold;
+  }
+  div:hover {
+    cursor: pointer;
+    background-color: #ff0;
+  }
+}
+
+
+div.cover textarea {
+  color: $text-black;
+  border-radius: 0 0 4px 4px;
+  font-size: 120%;
+  border-color: #ddd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div.cgtxt {
+  border: 1px solid #fc0;
+  padding: 6px;
+  line-height: 1.8;
+}
+
+div.cgmdf textarea#Texter {
+  font-size: 150%;
+}
+
+
+div.epg_cvr {
+
+  &.header,
+  &.body {
+    background-color: $field-bg;
+  }
+  &.header {
+    border-bottom: 1px solid #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  &.header.typ1 {
+    font-size: 125%;
+    margin-top: 20px;
+  }
+  &.header.typ2 {
+    margin-top: 8px;
+  }
+  &.header.typ3 {
+    margin-top: 3px;
+  }
+  &.body {
+    padding-bottom: 7px;
+  }
+}
+
+
+div.epg_cvr span {
+
+  &.term {
+    margin-right: 15px;
+  }
+  &.cnt {
+    font-size: 90%;
+  }
+  &.cpt {
+    font-weight: bold;
+  }
+  &.numero {
+    background-color: #fff;
+    color: #777;
+    border: 1px solid #d0d0d0;
+    margin-right: 5px;
+    margin-left: 85px;
+  }
+  &.lbl {
+    margin-left: 7px;
+  }
+}
+

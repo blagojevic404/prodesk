@@ -1,0 +1,161 @@
+// epg bcast controls
+
+@import '../base';
+
+
+td.bc_ctrl {
+  background-color: #d2d6db;
+
+  span.lbl_skiper {
+    padding: 0 3px;
+    font-style: italic;
+    color: #999;
+  }
+
+  div {
+    width: 82px;
+
+    a {
+      width: 25px;
+      margin: 0 3px;
+      opacity: .3;
+    }
+    a:hover,
+    a.disabled {
+      opacity:1;
+    }
+  }
+}
+
+
+
+div.bc_listvert a.btn {
+  margin-right: 8px;
+  vertical-align: 5px;
+}
+
+
+div.bc_stat,
+div.bc_list {
+  display:inline;
+}
+
+div.bc_list a {
+  color: #000;
+}
+
+div.bc_stat span,
+div.bc_list span {
+  padding: 0 2px;
+  text-align: center;
+}
+
+div.bc_list div {
+  display: inline;
+  padding-right: 5px;
+}
+
+div.bc_stat span {
+  font-weight: bold;
+  color: #FFF;
+}
+
+
+
+table#lst_tbl { // for list page
+
+  div.bc_stat span,
+  div.bc_list span {
+    padding: 2px 2px;
+  }
+
+  div.bc_list { float: left;}
+  div.bc_stat { float: right;}
+
+  span.bc_channel {
+    float: left;
+    background-color: #ff0;
+    padding: 0 4px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+
+
+div.bc_field { // for details page
+
+  div.bc_stat span {
+    padding: 0 5px;
+  }
+  span.lblprog3 {
+    margin-left: 6px;
+    font-size: 65%;
+    vertical-align: 2px;
+  }
+  h4 {
+    padding-top: 7px;
+
+    span.label {
+      background-color: #e5e5e5;
+      color: $text-black;
+      font-weight: normal;
+    }
+    div.bc_stat {
+      vertical-align: -2px;
+      margin-right: 5px;
+    }
+  }
+  a.opcty2 {
+    font-size: 70%;
+    margin-right: 15px;
+  }
+  a.bc_del,
+  a.bc_add {
+    font-size: 80%;
+    display: none;
+  }
+  a.bc_del {
+    margin-left: 15px;
+    color: red;
+  }
+  a.bc_add {
+    margin-left: 23px;
+    color: green;
+  }
+}
+
+
+
+
+
+div.bc_mdf { // for modify page
+  margin-bottom: 5px;
+
+  input {
+    margin-right: 7px;
+  }
+}
+
+
+
+
+div.bc_stat {
+
+  span.bc_count {			background-color: #888; }
+  span.bc_count_excess {	background-color: #f00; }
+
+  span.bc_max {			background-color: #555; }
+
+  span.bc_remain {		background-color: #080; }
+  span.bc_remain_zero {	background-color: #a00; }
+}
+
+div.bc_list {
+  span.bc_yy {					background-color: #9c9; }//#9CF
+  span.bc_mm {					background-color: #beb; }//#9FF
+  div.bc_term_fail span.bc_yy {	background-color: #f99; }
+  div.bc_term_fail span.bc_mm {	background-color: #fcb; }
+}
+
+

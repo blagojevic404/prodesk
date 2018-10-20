@@ -1,0 +1,115 @@
+@import 'base';
+
+
+
+
+table#epgcalendar {
+  border: none !important;
+
+  td {
+    border: none !important;
+
+    &.date {
+      text-align: center;
+    }
+  }
+
+  div.prevnext {
+    margin-top: -2px;
+    margin-right: -2px;
+  }
+}
+
+div#moverepg {
+  padding: 9px 10px;
+  text-align: center;
+
+  div.wrap {
+    display: inline-block;
+    text-align: left;
+  }
+  span.term {
+    margin-right: 12px;
+  }
+}
+
+div#moverscnr {
+  padding: 2px 10px 20px 10px;
+  min-height: 210px;
+
+  input[type="submit"] {
+    width: 100%;
+  }
+}
+
+
+ul#importer {
+
+  li.sleepline {
+    color: $text-inactv !important;
+  }
+
+  li.prg { background-color: $line_prg; }
+  li.mkt { background-color: $line_mkt; }
+  li.prm { background-color: $line_prm; }
+  li.clp { background-color: $line_clp; }
+  li.liveair { background-color: $line_prg; }
+  li.note { background-color: $line_note; }
+  li.hole { background-color: $line_hole; color: $line_hole_clr; }
+  li.segmento { background-color: $line_segment; color: $line_segment_clr; }
+}
+
+
+table#epgcalendar,
+div#moverepg,
+div#moverscnr {
+  background-color: $field-bg;
+}
+
+h3 {
+  table#epgcalendar & {
+    margin-top: 5px;
+  }
+  div#wrap_movercalendar table#epgcalendar.hor & {
+    margin-top: -30px;
+  }
+  div#moverscnr & {
+    margin-top: 8px;
+  }
+}
+
+
+// Links
+%link-selcted { background-color: #0000d2; color: #fff; }
+%link-focused { text-decoration: none; padding: 0 1px; }
+
+table#epgcalendar td.date a {
+  display: block;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+  }
+
+  &:focus {
+    @extend %link-focused;
+  }
+}
+
+div#moverepg a:focus {
+  @extend %link-focused;
+}
+
+a.sel {
+  table#epgcalendar td.date & {
+    @extend %link-selcted;
+    font-weight: bold;
+  }
+  div#moverepg & {
+    @extend %link-selcted;
+    padding: 1px;
+  }
+}
+
+

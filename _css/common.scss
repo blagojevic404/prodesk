@@ -1,0 +1,671 @@
+@import 'base';
+
+
+body {
+  background-color: $body-bg;
+  font-family: verdana, sans-serif;
+}
+
+div.content {
+  background-color: #fff;
+  padding: 20px 0 50px 0;
+
+  &.ifrm-tunel {
+    padding: 0;
+  }
+}
+
+div.ifrm-tunel {
+  div.container-fluid {
+    padding: 5px 20px;
+  }
+}
+
+div.ifrm_wrap {
+  padding:0;
+
+  iframe {
+    margin-bottom: 20px;
+  }
+}
+
+iframe#ifrmtunel {
+  visibility:hidden;
+  display:none;
+  //min-width: 930px;
+  width: 100%;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+}
+
+#ifrm_label {
+  cursor: pointer;
+  margin-top: 1px;
+  padding: 3px 0 3px 5px;
+  float:left;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  display:block;
+  width:100%;
+  font-size: 18px;
+  background-color: #fff;
+  border: solid 1px #ddd;
+
+  span#label_bold {
+    font-weight: bold;
+  }
+}
+
+
+
+div#footer {
+  border-top: 3px double #eee;
+  background-color: #333;
+  color: #aaa;
+  min-height: 43px;
+}
+
+
+.caret.caret-reversed {
+  border-top-width: 0;
+  border-bottom: 4px solid;
+}
+
+a.resetbtn {
+  position: absolute;
+  float: right;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.daterangepicker {
+  font-family: Arial;
+}
+
+
+div.checkbox.chkpretty {
+  padding: 0;
+
+  label {
+    padding-left: 30px;
+    //padding-right:0;
+  }
+}
+
+
+.headbar {
+  margin-bottom: 0;
+
+  h2 {
+    margin: 5px 0;
+  }
+  div {
+    display: inline-block;
+  }
+  .pull-right {
+    margin: 5px 5px 0 5px;
+  }
+
+  .lbl,
+  .lblfilm {
+    font-size:22px !important;
+    text-transform: uppercase;
+    padding: 0 5px !important;
+  }
+
+  .lblfilm {
+    color: #fff;
+    background-color: #c3c;
+    text-transform: uppercase;
+    margin: 0 10px 0 0;
+  }
+  span.channel {
+    vertical-align: 3px;
+  }
+}
+
+
+
+
+div.btnbar {
+  background-color: $field-bg;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+
+  div.search {
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+
+div.panel {
+  background-color: $field-bg;
+
+  &.setz {
+    //background-color: #fff;
+    margin-bottom: 32px;
+  }
+
+  .detaildiv { // This can be other than DIV element, e.g. it can be an anchor
+    background-color: #fff;
+    font-size: 180%;
+    padding-left: 6px;
+    display: block;
+  }
+
+  div.detaildiv {
+    small {
+      font-size: 70%;
+    }
+    span.glyphicon-ok-circle,
+    span.glyphicon-ban-circle {
+      position: relative;
+      top: 3px;
+      margin-right: 10px;
+    }
+    span.glyphicon-ok-circle {
+      color: #070;
+    }
+    span.glyphicon-ban-circle {
+      color: #b00;
+    }
+  }
+}
+
+
+.opcty3 { opacity:0.3; }
+.opcty2 { opacity:0.2; }
+a.opcty3:hover, button.opcty3:hover,
+a.opcty2:hover, button.opcty2:hover { opacity:1; }
+
+.satrt { @include satur(0%); }
+a.satrt:hover { @include satur(); }
+
+
+
+div.omg {
+  background-color: #ffa;
+  min-height: 20px;
+  border-top: 1px solid #000;
+  font-size: 130%;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  z-index: 99;
+
+  span.dsc {
+    padding-left: 10px;
+    vertical-align: text-top;
+  }
+  a {
+    vertical-align: text-top;
+    color: #d00;
+  }
+}
+
+div#warney {
+  display: none;
+  background-color: #f00;
+  color: #fff;
+  border-bottom: 1px solid black;
+  z-index: 1100;
+
+  .label {
+    background-color: #fff;
+    color: #f00;
+  }
+  a {
+    color: #fff;
+  }
+  a#restarter {
+    font-weight: bold;
+    margin-right: 50px;
+    text-decoration: underline;
+  }
+
+  span#warney_cntdown {
+    font-weight: bold;
+  }
+}
+
+
+span.phz {
+  margin-right: 5px;
+}
+
+form#form1 {
+  margin: 0;
+}
+
+a.dark {
+  color: #23527c;
+}
+
+
+span.ready {
+  color: #0a0;
+  padding: 0 1px;
+  &.ready_not {
+    color: #bbb;
+  }
+}
+a.ready {
+  background-color: $field-bg;
+  border-radius: 2px;
+  &:hover {
+    background-color: #0a0;
+    span {
+      color: #fff !important;
+    }
+  }
+}
+span.ready.ready_not.cvr_proofed {
+  color: #dc0;
+}
+a.ready.cvr_proofed:hover {
+  background-color: #dc0;
+}
+.headbar span.epg_ready,
+.headbar a.ready {
+  margin-right: 5px;
+  font-size: 95%;
+  padding-right: 2px;
+}
+
+
+
+
+.breadcrumb {
+
+  > li + li.righty:before {
+    content: '';
+  }
+
+  li.righty.pale { // NEXT/PREV scnr
+
+    a {
+      opacity: 0.3;
+      @include satur(0%);
+    }
+    a:hover {
+      opacity: 1;
+      @include satur();
+    }
+    &.disabled span {
+      color: #fff;
+    }
+  }
+
+  li.righty.conn {
+
+    a {
+      margin-left: 10px;
+    }
+    a:hover {
+      text-decoration: none;
+      border-style: solid;
+      border-width: 1px 0 1px 0;
+      padding: 1px 0 1px 0;
+    }
+  }
+}
+
+
+p.navbar-text span.bumper {
+  padding: 0 7px;
+}
+
+
+div#logs_heading {
+
+  div.pull-right span {
+    color: #999;
+    font-size: 70%;
+    padding: 0 8px;
+
+    &.glyphicon {
+      padding-right: 5px;
+    }
+  }
+}
+
+div#logz_text {
+
+  table tr td:first-child,
+  table tr th:first-child {
+    padding-left: 15px;
+  }
+
+  div {
+    margin: 20px;
+  }
+
+  td.action {
+    min-width: 8em;
+
+    span {
+      margin-right: 6px;
+    }
+  }
+
+  td.term {
+    font-style: italic;
+    min-width: 12em;
+  }
+
+  td.sql {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  }
+}
+
+table.listingz {
+
+  tr:hover {
+    td { // we specify TD in order to exclude effect on TH
+      background-color: #fff;
+    }
+    th {
+      background-color: transparent;
+    }
+  }
+  tr th {
+    border-top: none;
+  }
+}
+
+
+span.label.is_deleted {
+  background-color: #f00;
+  color: #fff;
+}
+li.is_deleted a:hover {
+   text-decoration: none;
+}
+
+
+textarea.no_vert_scroll {
+  overflow-y: hidden;
+  // Prevents displaying vertical scrollbar. Because of this we must add expandTxtarea() call to each textarea.
+}
+
+
+a.disabled { // Imitate BS a.btn.disabled behaviour (for cases where we cannot use *btn* class)
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+// Prevent popup button to display an outline/border, which is ugly when we use glyph circle/sign instead of button
+a.popbtn {
+  outline: none;
+}
+
+
+
+.popover {
+  max-width: 350px;
+
+  ul {
+    padding-left: 10px;
+
+    li {
+      margin: 7px 0;
+    }
+  }
+}
+.popover-content {
+  padding-top: 20px;
+}
+
+a.help {
+  font-size: 150%;
+  margin-top: -5px;
+  color: #bbb;
+
+  &.mdfmulti {
+    margin-top: -3px;
+  }
+  &.th {
+    position:absolute;
+    right:2px;
+  }
+  &.pull-right {
+    margin-left: 10px;
+  }
+}
+
+
+
+a.flw {
+  border-radius: 4px;
+  padding: 3px 6px 3px 5px;
+  margin-left: 8px;
+  color: #ccc;
+  background-color: #fff;
+  border: 1px solid #eee;
+
+  &.on {
+    color: #555;
+    background-color: #ddd;
+    border: 1px solid #fff;
+  }
+  &:hover {
+    color: #000;
+  }
+
+  td.lst_tdctrl & {
+    margin-left: 0;
+  }
+}
+
+
+a.btn-grey {
+  background-color: $field-bg;
+  color: #777;
+}
+
+a.js_starter {
+  background-color: $field-bg;
+  color: #777;
+  margin-right: 5px;
+  &.righty {
+    margin-right: 0;
+  }
+  &.on {
+    background-color: #fff;
+  }
+}
+
+a.printer_btn {
+  margin-right: 5px;
+  &.def {
+    border: 3px solid #f80;
+  }
+}
+
+
+div.panel.setz li.list-group-item div.checkbox {
+  padding-top: 3px;
+}
+
+
+.atom_texter {
+  margin-bottom: 10px;
+
+  div.atom_txt,
+  textarea {
+    font-size: 22px;
+    line-height: 1.6; // Default seems to be 1.45 (for this font-size)
+    //font-family:Georgia, "Times New Roman", Times, serif;  serif fonts should be used only in *print* version
+  }
+  div.atom_txt {
+    padding: 3px 6px 6px 6px;
+    background-color: #fff;
+    min-height: 190px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+}
+
+
+a.namebox {
+  text-decoration: none;
+}
+.namebox {
+  margin-left: 12px;
+
+  span.speaker,
+  span.numero {
+    padding: 2px 7px 3px 7px;
+    border: 1px solid #fff;
+    line-height: 30px;
+  }
+  span.speaker {
+    border-radius: 0 3px 3px 0;
+    color: $text-black;
+  }
+  span.numero {
+    border-radius: 3px 0 0 3px;
+    color: #555;
+    background-color: #fff;
+    border-right: none;
+  }
+
+  &.wired span {
+    background-color: transparent;
+    color: #fff;
+  }
+}
+
+
+
+pre.normal {
+  background-color: #fff;
+  border: none;
+}
+
+
+
+span.webvod0, span.weblive0 { color:#ddd; }
+span.webvod1 { color:#6cf; }
+span.weblive1 { color:#7d6; }
+
+
+
+
+.durok { color: #090 !important; }
+.durerr { color: #f00 !important; }
+.dur_sec { font-size: 70%; font-weight: normal; }
+
+span.lblprog3 { // rerun (used in epg and in film)
+  color: #fff;
+  background-color: #000;
+  padding: 0 3px;
+  font-weight: bold !important;
+}
+
+
+
+
+
+span.glyphicon.mdf,
+span.glyphicon.new {
+  padding-right: 5px;
+}
+
+
+.table-nonfluid { // disable BS table full-width
+  width: auto !important;
+}
+
+
+a.btn.dlt {
+  margin-left: 10px;
+}
+
+
+div#abv a {
+  margin: 0 5px;
+  &.disabled {
+    font-weight: bold;
+    color: #333;
+  }
+}
+
+
+span.usage_rerun {
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+
+div.panel-group a.btn_panel_head {
+  margin-top: -4px;
+  margin-left: 10px;
+
+  &.disabled {
+    opacity: 0.2;
+  }
+}
+
+
+table#mdf_tbl {
+
+  tr:hover td { // we specify TD in order to exclude effect on TH
+    background-color: #ddd;
+  }
+  tr th {
+    border-top: none;
+  }
+  td {
+    vertical-align: middle;
+  }
+  td.ordinal {
+    font-size: 140%;
+  }
+  tr#master_controls td {
+    padding-top: 40px;
+  }
+  div.dur {
+    min-width: 165px;
+  }
+  &.setz tr:first-of-type td {
+    border-top: none;
+  }
+}
+
+
+.drg_target {
+  cursor: -moz-grab; cursor: -webkit-grab; cursor:grab;
+}
+
+span.logo {
+  color: #428bca !important;
+  margin-right: 5px;
+}
+
+p.script_time {
+  font-size: 80%;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+
+// Used when glyphicon in btn looks too small. Set it together with btn-lg class. This way we get lg text and sm/md box.
+a.btn_size_tweak_lg2sm {
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+a.btn_size_tweak_lg2md {
+  padding: 4px 9px;
+  border-radius: 4px;
+}
+
+
+span.hms_ff {
+  color: #bbb;
+  font-size: 70%;
+}

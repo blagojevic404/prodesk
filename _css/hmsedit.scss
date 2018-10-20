@@ -1,0 +1,56 @@
+@import 'base';
+
+
+span.hmsedit { cursor: pointer; }
+
+div.hmsedit {
+  @include abs-top(0, 0);
+  opacity: 1 !important;
+
+  table#epg_table & {
+    width: 159px;
+    text-align: left;
+  }
+
+  input {
+    outline: 0;
+    border-style: none;
+    border-radius: 3px;
+    margin: 6px 2px 6px 4px;
+    padding: 0 3px;
+    color: #555;
+
+    &.term    { width: 73px; } //hh:mm:ss
+    &.dur_wide  { width: 73px; } //hh:mm:ss
+    &.dur     { width: 50px; } //mm:ss
+  }
+
+
+  span.glyphicon {
+    margin-left: 5px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 3px;
+    font-size: 115%;
+    background-color: #fff;
+    vertical-align: -1px;
+  }
+
+  a.disabled {
+    color: #aaa;
+  }
+}
+
+
+.atom_header .label.dur {
+  position: relative;
+
+  div.hmsedit {
+    top: 0;
+    left: 33px;
+
+    input {
+      width: 67px;
+      margin: 3px;
+    }
+  }
+}

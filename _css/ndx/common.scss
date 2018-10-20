@@ -1,0 +1,33 @@
+@import '../base';
+
+
+table#ndxshortz {
+  width:100%;
+  table-layout: fixed;
+  @include cellspacing(15px);
+
+  a[type=button] {
+    padding: 0;
+    height: 100px;
+    display: table;
+
+    span {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  td {
+    padding-top: 15px;
+  }
+  tr.other td {
+    padding-top: 35px;
+  }
+  small {
+    text-transform: uppercase;
+  }
+  td.channel a {
+    font-size: 115%;
+  }
+}
+
+

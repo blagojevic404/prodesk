@@ -1,0 +1,66 @@
+@import '../base';
+
+
+span.company_name {
+  font-weight: bold;
+  font-size: 150%
+}
+
+ol.breadcrumb a[type="button"] {
+  margin-left: 15px;
+}
+
+ul.branch {
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+
+ul#org_list {
+  margin-top: -10px;
+  margin-left: -20px;
+
+  h5 { margin: 3px 0; }
+  h6 { margin: 0; }
+}
+
+
+ul#org_ctrl {
+  margin-left: -20px;
+
+  li { list-style-type: none; }
+
+  h5,
+  h6 { // fixing vertical align
+    line-height: 1.5;
+  }
+
+  .checked { background-color: #ff0; }
+}
+
+
+table#grp_workers {
+  margin-bottom: 10px;
+
+  tr:first-child td {
+    border-top: none !important;
+  }
+
+  tr.chief td {
+    font-size: 120%;
+
+    span.glyphicon {
+      margin-right: 7px;
+    }
+  }
+
+  ul#org_list & {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+div#history_accordion .glyphicon {
+  margin-right: 10px;
+}

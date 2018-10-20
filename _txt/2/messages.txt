@@ -1,0 +1,144 @@
+
+[common]
+
+// omg
+danger Greška
+warning Važno
+info Info
+success URA
+
+scheduled_blackout Planirani rad na serveru. (%s minuta)
+
+// redirector
+deleted Izbrisano
+restored Vraćeno
+purged Izbrisano iz korpe
+
+// error
+pms_fail Nemate potrebne korisničke dozvole.
+item_fail Predmet ne postoji.
+already_exists već postoji.
+
+// error logged
+db_error Greška sa bazom podataka.
+no_permissions Nemate korisničke dozvole da otvorite ovu stranicu.
+access_denied Ograničen pristup.
+page_request Zahtjev za stranicu je neispravan.
+
+// login
+login_fail_creds Pogrešno korisničko ime ili lozinka
+login_fail_disabled Nalog je isključen
+
+// delete dialog
+del_confirm Zaista?
+del_quest Izbrisaćete
+
+err_data_input Pogrešno uneseni podaci
+mdflog_conflict Na istom predmetu upravo radi %s. Može doći do gubljenja podataka.
+data_required Obavezni podaci
+ggl_2letter_words Riječi od dva slova se ne računaju u pretrazi
+
+// settings
+set_saved Postavka je snimljena
+not_saved Nije snimljeno
+
+// epg-dsk
+cvr_pms Nalog se ne može mijenjati/obrisati zato što je već izvršen (vidi zelenu kvaku). Ako trebate nešto promijeniti, možete npr kopirati tekst pa unijeti novi nalog sa izmjenama, i operater ce opaziti da se radi o izmjenama ranijeg naloga.
+
+[/common]
+
+
+
+
+[hrm]
+
+fullname_exists Osoba sa istim imenom i prezimenom već ima <a>korisnički nalog</a>.
+uname_exists Takav korisnički nalog već postoji.
+
+[/hrm]
+
+
+
+
+[ndx]
+
+set_multi_login Dozvoli istovremeni login sa više računara
+old_chromium Koristite zastarjelu verziju programa za internet.
+not_chromium Trebate koristiti preporučen internet-program<br>(Google Chrome)
+
+[/ndx]
+
+
+[dsk]
+
+stry_copy Kopija
+stry_cut Premjesti
+del_note_stry Biće izbrisane sve reference na ovu vijest, no sama vijest neće biti sasvim izbrisana nego premještena u KORPU.
+
+set_flw_author Automatski dodati predmete čiji sam ja autor
+set_flw_task Automatski dodati zadatke koji su meni dodijeljeni
+set_flw_prog Automatski dodati predmete iz scenarija u kojem sam ja urednik
+set_stry_lst_scnr U listi vijesti prikazati kolonu SCENARIO
+set_dsk_cvr_collapse Na stranici vijesti otvoriti sve EGO
+set_dsk_cndz_author Filter AUTOR u katalozima da sadrži novinare <i>svih</i> kanala
+
+err_prgm_exists Emisija sa takvim nazivom već postoji.
+
+[/dsk]
+
+
+[epg]
+
+print_continuous Štampati kao listu, ne prekidati na stranice.
+term_faulty Nepravilan termin.
+epg_restart Stranica nije ažurna, restart za
+mos_disabled %s "<b>%s</b>" - ne može imati %s.
+episodes_master_controls MASTER kontrole<br><i>(za sve epizode)</i>
+bc_add_manually Novi zapis o emitovanju.<br>Unesite datum u formatu dd.mm.yyyy.
+bccur_correction Program je ispravio zapis o broju emitovanja.
+err_epg_stry Vijest je već povezana sa emisijom
+err_empty_element Elemenat ne može biti prazan
+err_empty_prog Morate izabrati emisiju
+err_mktplan_assoc je već povezan sa
+err_block_label_exists Na bloku je već postavljena napomena
+
+set_film_list_show_contracts U katalogu filmova prikazati kolonu UGOVOR
+set_film_list_show_genre U katalogu filmova, za svaki film u listi prikazati žanrove
+set_film_list_bc_show_all_channels U katalogu filmova prikazati listu emitovanja za SVE kanale umjesto samo za izabrani kanal
+set_scnr_prompter_element_labels U prikazu PROMPTER dodati tekstne oznake za elemente SKOP i EKST
+set_scnr_recs_vo U prikazu SKOP prikazati i pokrivalice
+set_scnr_list_cam U prikazu LISTA prikazati i oznaku kamere
+set_epg_list_filter_teams Filter elemenata koristi novinarske redakcije umjesto vrste elemenata (prikaz LISTA)
+set_epg_calendar Prikazati traku sa kalendarom
+set_epg_notes_hide Napomene na elementima prikazati kao oznake
+set_epg_show_skop_cvr Prikazati oznake za SKOP EGO naloge
+set_epg_hide_inactives U prikazu LISTA sakriti neaktivne linije
+
+phz_err_top Ova vijest je već u posljednjoj fazi.
+phz_err_pms Nemate korisničke dozvole da podignete fazu vijesti.
+spc_hidden_wrapclips Najavne i odjavne špice u blokovima su bile sakrivene, pa bi predmet mogao biti premješten na mjesto gdje ne želite, npr ispred najavne špice.<br>Program će sada prikazati i te špice, pa opet probajte premjestiti predmet.
+mktuptd_termcheck Auto-ažuriranje povezanog marketing bloka u šemi isključeno je za termine koji su prošli.
+mpi_replace_same Predmet za zamjenu je ISTI!
+mpi_replace_del Ne želite zamijeniti nego IZBRISATI?
+
+[/epg]
+
+
+[admin]
+
+err_sec_format %s može sadržavati slova, brojeve i ove znakove: .-_
+new_ad_acc Novi AD nalog
+ad_pass_rules Mora imati najmanje 8 simbola, od toga barem jedno veliko slovo i jedan broj.
+ad_pass_blank Ako ostavite prazno polje, skripta će nasumce sastaviti lozinku.
+err_pass_req Npr, lozinka je previše jednostavna
+err_fsize_large Log je pregolem (%s), bolje ga je snimiti pa pregledati sa svog računara!
+
+set_db_arhiver Nakon koliko dana ARHIVIRATI programske sheme i vijesti
+set_jnt_epgxml Koliko dana čuvati rasporede u epgxml direktoriju
+set_jnt_stry_versions Koliko dana čuvati VERZIJE vijesti (stry_versions)
+set_jnt_stry_trash Nakon koliko dana brisati vijesti iz KORPE
+set_jnt_log_sql Koliko dana čuvati LOGOVE (log_qry/log_sql)
+set_jnt_log_mdf Koliko dana čuvati logove o TEKUĆIM IZMJENAMA (log_mdf)
+set_jnt_log_inout Koliko dana čuvati LOGIN/OUT logove (log_in_out)
+
+[/admin]

@@ -1,0 +1,235 @@
+@import 'base';
+
+
+div.well.headnav,
+div.well.clndar,
+div#abv,
+div#tools,
+div.report,
+div.alert {
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+
+div#tools {
+  background-color: $field-bg;
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+
+  table {
+    margin:0;
+
+    td {
+      padding: 0 4px 0 0;
+      border: none;
+      vertical-align: middle;
+
+      div {
+        margin-bottom: 0;
+      }
+    }
+
+    td:last-child {
+      padding-right: 0;
+    }
+  }
+
+  td.btnz {
+    padding-right: 2px !important;
+  }
+
+  div.btn-group {
+    padding-right: 10px;
+  }
+}
+
+
+
+
+div.well.headnav {
+  padding: 3px;
+}
+
+div.well.clndar {
+  @include pad-vert(7px);
+  position: relative;
+
+  span.glyphicon-calendar {
+    @include abs-top(5px, $right: 5px);
+    color: #ccc;
+    font-size: 150%;
+  }
+}
+
+#clndar {
+  font-size: 12px;
+  color: #aaa;
+
+  .cur {
+    font-weight: bold;
+    color: #686868;
+  }
+}
+
+div#abv {
+  @include pad-vert(6px);
+}
+
+
+
+
+ul.pagination {
+  margin:0;
+}
+
+div.alert {
+  padding:7px;
+
+  a.alert-link {
+    text-decoration: underline;
+  }
+}
+
+
+div.report {
+  background-color: #ddd;
+  padding: 2px 5px 3px 5px;
+
+  span.results {
+    font-size: 12px;
+    opacity: .6;
+  }
+  span.rpp select {
+    padding: 0;
+    height: 21px;
+  }
+}
+
+div.well.headnav div.btn-group {
+  margin-right: 5px;
+}
+
+
+
+table#lst_tbl {
+
+  th {
+
+    a {
+      color: $text-black;
+    }
+
+    a.popbtn { // helper button for scnr cln
+      padding-left: 5px;
+      opacity: .3;
+    }
+  }
+
+  th.sortcln {
+    white-space: nowrap;
+
+    span.glyphicon {
+      font-size: 80%;
+      padding-left: 5px;
+      opacity: .3;
+    }
+  }
+
+  td.lst_tdcpt {
+    position: relative;
+
+    a, span.title {
+      font-weight: bold;
+    }
+
+    span.film_note {
+      font-size: 80%;
+      display: block;
+      font-style: italic;
+    }
+
+    span.film_gnr {
+      font-size: 80%;
+      display: block;
+    }
+
+    span.film_lng {
+      padding: 0 0 2px 0;
+      width: 2.5em;
+      text-align: center;
+      border: 1px dotted #888;
+      color: #555;
+      font-size: 11px;
+      position: absolute;
+      right: 2px;
+      float: right;
+    }
+
+    span.film_typ,
+    span.film_sct {
+      padding: 1px 2px;
+      margin-right: 3px;
+      margin-left: 0;
+      color: #fff;
+      background-color: #a2a6ae;
+      font-size: 75%;
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+
+    span.glyphicon.epg {
+      float: right;
+      @include abs-top(10px, $right: 20px);
+    }
+    span.glyphicon.prodtype {
+      padding: 3px 2px 2px 2px;
+      margin-left: 5px;
+      background-color: #ffff00;
+      border: 1px solid #555;
+      font-size: 75%;
+      border-radius: 3px;
+    }
+
+    span.ready {
+      margin-right: 5px;
+    }
+  }
+
+  td.lst_td_daterange { min-width: 210px; }
+  td.lst_td_flmbc { min-width: 255px; }
+  td.lst_tdprgmterm { max-width: 205px; }
+  td.lst_tdweb { min-width: 90px; }
+
+
+
+  td.lst_tdctrl {
+    font-size: 135%;
+    line-height: 1; // A number that will be multiplied with the current font-size to set the line height
+    padding-right: 0;
+
+    a.text-danger {
+      margin-left: 10px;
+    }
+    a.disabled {
+      opacity: 0.5;
+    }
+  }
+
+  td.lst_tdweb span.glyphicon {
+    font-size: 135%;
+    margin-right: 15px;
+  }
+
+  td.film_undelivered { color: #999; }
+}
+
+
+div.ifrm-tunel div.container-fluid {
+  padding: 5px !important;
+}
+
+span.lblban {
+  color: #c67605;
+}

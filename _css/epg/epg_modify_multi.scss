@@ -1,0 +1,175 @@
+// page-specific css for epg_modify_multi.php
+
+@import '../base';
+
+@import 'schtable';
+
+
+
+// IFRM LABEL back
+div#ifrm_label {
+  table.epg_mdf td.prg & { background-color: #ffffff; }
+  table.epg_mdf td.clp & { background-color: #fff2eb; }
+  table.epg_mdf td.mkt & { background-color: #fffbe5; }
+  table.epg_mdf td.prm & { background-color: #f9f5db; }
+  table.epg_mdf td.film & { background-color: #ffefff; }
+}
+
+
+
+
+
+
+
+table.epg_mdf {
+  border-top: 18px solid white;
+
+  td.prg { background-color: $line_prg !important; }
+
+  td.segmento input[type="text"] {
+    color: $text-black;
+  }
+
+  table #switchedoff { // Deactivated rows, blend with background
+    background-color: $line_prg;
+    color: $line_prg;
+  }
+
+  a.del {
+    width: 17px;
+  }
+
+  td {
+    border: none;
+    padding: 0;
+    height: 40px;
+  }
+
+  table {
+    margin: 1px 0;
+    width: 100%;
+    @include cellspacing(1px);
+
+    td {
+      font-size: 12px;
+      padding: 3px 0;
+      border: none !important;
+    }
+
+    td.cpt { width: 80px; }
+    td.term,
+    td.dur { width: 133px; }
+    td.ctrl { min-width: 655px; }
+
+    td.term span,
+    td.dur span {
+      font-size: 13px;
+    }
+
+    td.cpt {
+      font-size: 11px;
+      text-align: center;
+    }
+    td.ctrl {
+      padding: 0 5px;
+    }
+  }
+
+  td,
+  table td { cursor: default; }
+  table td.cpt { cursor: move; }
+
+  #ifrm_label,
+  table select,
+  table input {
+    font-size: 16px;
+  }
+
+  input.parental {
+    border: 1px solid #dbc; //fb0
+    color: #b80;
+    width: 25px;
+    height: 23px;
+    margin-right: 5px;
+    padding-top: 1px;
+  }
+  input.record {
+    width: 23px;
+    height: 23px;
+    background-color: #fbc;
+    margin-right: 5px;
+  }
+
+  input[type="text"].form-control {
+    padding-left: 4px;
+    padding-right: 4px;
+    color: $text-black;
+  }
+
+  select.form-control {
+    padding: 4px 0;
+  }
+
+  span.termemit {
+    @include abs-top(14px, -80px);
+    font-size: 80%;
+  }
+
+  tr.sleepline {
+
+    table#tblwrap td {
+      background-color: $bg-inactv !important;
+      color: $text-inactv !important;
+    }
+
+    div#ifrm_label,
+    input,
+    .form-control {
+      background-color: $bg-inactv-obj !important;
+      color: $text-inactv !important;
+    }
+  }
+}
+
+#ifrm_label {
+  border: none;
+}
+
+div.mattyp {
+  text-align: left;
+
+  label {
+    padding: 4px 0 !important;
+  }
+}
+
+div.pad_r0 { padding-right: 0; }
+div.pad_r5 { padding-right: 5px; }
+div.pad_l0 { padding-left: 0; }
+div.pad_l5 { padding-left: 5px; }
+
+.pad_r5 a.resetbtn { right: 5px; }
+.pad_r0 a.resetbtn { right: 0; }
+.col-sm-12 a.resetbtn { right: 15px; }
+
+
+input[type="submit"] {
+  margin-top: 30px;
+}
+
+
+iframe#ifrmtunel {
+  border-color: $text-black;
+}
+
+//td.ifrm_td {
+//  text-align:center;
+//  background-color:#000;
+//  padding:10px;
+//}
+
+//table.epg_mdf table select {
+//  position:relative;
+//  vertical-align:middle;
+//}
+

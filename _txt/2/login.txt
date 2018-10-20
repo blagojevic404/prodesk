@@ -1,0 +1,5 @@
+uname_error Pogrešno korisničko ime!
+prodesk ProDesk 3
+uname Korisnik
+pass Lozinka
+submit Nastavi

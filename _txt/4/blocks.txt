@@ -1,0 +1,108 @@
+
+[readspeed]
+Na graničnim prelazima Doljani i Izačić na izlazu iz BiH čeka se oko tri časa, dok se na graničnom prelazu Gabela Polje čeka čas i po.
+Na ostalim graničnim prelazima zadržavanja trenutno nisu duža od 30 minuta, saopšteno je iz Auto-moto saveza Republike Srpske.
+Zbog radova u Hrvatskoj, za saobraćaj teretnih vozila zatvoreni su granični prelazi Gorica - Vinjani Donji i Brčko - Gunja.
+[/readspeed]
+
+[rs_instruction]
+<ul>
+<li>Press START button, read the text, then press the same button again.
+The program will calculate your reading speed. Type the title and then save.<br>
+Or, if you want to repeat, press CLEAR button.
+<li>You may change the reading text.
+<li>You may save multiple reading speeds under different titles, e.g. faster and slower reading.<br>
+The one which will be used as <i>default</i> is marked with <span class='glyphicon glyphicon-thumbs-up'></span>.
+</ul>
+[/rs_instruction]
+
+[help_studio]
+<ul>
+<li>Under the program title there is a bar with the names of editors and presenters.<br>
+By clicking on the <b>presenter's name</b> in the bar, you open the info about reading speed for that presenter.<br>
+If you are the presenter, then under this info you also get
+controls to select your reading speed - provided that you have set multiple
+reading speeds. (You may set reading speed(s) on page 'DESK > Settings').<br>
+<li>You may change which presenter will read certain text block, by clicking the button left to the text block.
+<li><b>Text blocks</b> are interactive. By double-click you turn text block into textarea where you can change the text.
+Click anywhere outside the textarea to close it and save the changes.
+If you want to cancel the current changes, press <i>ESCAPE</i> key.
+<li><b>Phase sign</b> is interactive. Just press phase square and the phase will be raised for one step.
+<li>When you are done with the changes, press <i>F5</i> key if you want to update the page to show recalculated terms.
+</ul>
+[/help_studio]
+
+[help_epgdur__epg]
+Columns for duration – valid and invalid*
+<p>Duration of the program can be set manually, e.g. <i>at the beginning</i> it is common to set the <i>planned</i>
+duration for the program (for example, 25:00 minutes).
+Also, Prodesk tries to calculate the <i>real</i> duration (based on the duration of all of the program elements),
+which can differ from the planned (let's say, it didn't turn out 25:00 but 26:18). <br>
+In that case we have two durations (planned and calculated).
+When the program is <i>finished</i> (when the editor marks it as READY, and the green check mark appears before the title)
+then the calculated duration will get precedence, but up to that point the planned duration is the valid one.<br>
+If you want to delete the planned duration even before that, while it is still valid, you can do that by shortcut-link
+on the label for currently valid duration.</p>
+<p>Valid duration is displayed at the left column, and invalid is in the right one.</p>
+<p>Planned duration is colored in dark-green, and calculated duration is in light-green.</p>
+[/help_epgdur__epg]
+
+[help_epgdur__scnr]
+Columns for duration – valid and invalid*
+<p>Duration of the story can be set manually, e.g. <i>at the beginning</i> editor commonly sets the <i>planned</i>
+duration for the specific story (for example, 01:30 minute).
+Also, Prodesk tries to calculate the <i>real</i> duration, which can differ from the planned duration
+(let's say, it didn't turn out 01:30 but 01:32). <br>
+In that case we have two durations (planned and calculated).
+When the story is <i>finished</i> (when it gets to the READY phase)
+then the calculated duration will get precedence, but up to that point the planned duration is the valid one.<br>
+If you want to delete the planned duration even before that, while it is still valid, you can do that by shortcut-link
+on the label for currently valid duration.</p>
+<p>Valid duration is displayed at the left column, and invalid is in the right one.</p>
+<p>Planned duration is colored in dark-green, and calculated duration is in light-green.</p>
+[/help_epgdur__scnr]
+
+[help_epgterm]
+Term column: shortcuts*
+<p>By clicking the term label you open the
+<b>changes frame</b> which contains:
+<p><b><i>HMS</i></b> fields to change the term
+(to confirm the change press ENTER key, to cancel press ESC)
+<p><span class='glyphicon glyphicon-bell'></span> shortcut to set the term to current time
+<p><span class='glyphicon glyphicon-remove'></span> shortcut to delete the term
+(active only if the term has previously been set)
+<p><span class='glyphicon glyphicon-asterisk'></span> shortcut to mark the term as
+&quot;on hold&quot; <i>(only for schema)</i>
+[/help_epgterm]
+
+[help_mdfmulti]
+<p><b>SHORTCUTS</b> in the term fields and the duration fields:
+<ul>
+<li>Press <b>minus</b> (-) to delete the entire term or duration
+<li>Press <b>asterisk</b> (*) to mark the entire term as &quot;on hold&quot; <i>(only for schema)</i>
+<li>Press <b>dot</b> or <b>comma</b> (.,) in order to move cursor to the next field
+</ul>
+[/help_mdfmulti]
+
+[help_mdfprg]
+<p><b>SPECIAL PROGRAMS</b> &ndash; which are not in the program list <br>(because they are broadcasted only once or sth like that):</p>
+<p>Write the program title in the <b>Theme</b> field.</p>
+<p>If you need to specify the theme too, then put ~ sign or | sign right after the program title and then write the theme.</p>
+[/help_mdfprg]
+
+[help_epgweb]
+<p>Left, at the beggining of each row, it is marked by green or red color whether the program will go to <i>web live streaming</i>,
+i.e. whether it will be broadcasted on the web-site.
+<p>Programs which should be recorded for <i>Video-On-Demand (VOD)</i>, i.e. which will be published in video catalogue
+on the web-site, are marked on the right end of the row, by <span class='glyphicon glyphicon-download webvod'></span>.
+[/help_epgweb]
+
+[error404]
+There is nothing here..*
+If you please, you may return back to the <a href="javascript:window.history.back();">previous page</a>..
+Or perhaps to Prodesk <a href="/">start page</a>.
+[/error404]
+
+[help_prompter]
+To copy the text, just click inside the textbox..
+[/help_prompter]

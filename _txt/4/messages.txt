@@ -1,0 +1,144 @@
+
+[common]
+
+// omg
+danger Error
+warning Important
+info Info
+success URA
+
+scheduled_blackout Scheduled maintenance. (%s minutes)
+
+// redirector
+deleted Deleted
+restored Restored
+purged Deleted from Recycle Bin
+
+// error
+pms_fail You do not have necessary user permissions.
+item_fail The item does not exist.
+already_exists already exists.
+
+// error logged
+db_error Database error.
+no_permissions You do not have user permissions to open this page.
+access_denied Access denied.
+page_request Faulty page request.
+
+// login
+login_fail_creds Wrong username or password
+login_fail_disabled Account is disabled
+
+// delete dialog
+del_confirm Really?
+del_quest You will delete
+
+err_data_input Data input error
+mdflog_conflict The same item is currently being edited by %s. This can result in data loss.
+data_required Required data
+ggl_2letter_words Two-letter words are not counted in search
+
+// settings
+set_saved Setting is saved
+not_saved Not saved
+
+// epg-dsk
+cvr_pms The CG order can not be changed/deleted because it has already been executed (see the green check mark). If you need to change something, you can copy the text and create a new CG order with the changes, and the operator will notice that it is a change of the previous CG order.
+
+[/common]
+
+
+
+
+[hrm]
+
+fullname_exists The person with the same name already has an <a>user account</a>.
+uname_exists The account with that username already exists.
+
+[/hrm]
+
+
+
+
+[ndx]
+
+set_multi_login Allow simultaneous login from multiple computers
+old_chromium You are using an outdated version of the Internet browser.
+not_chromium You should use the recommended Internet browser<br>(Google Chrome)
+
+[/ndx]
+
+
+[dsk]
+
+stry_copy Copy
+stry_cut Move
+del_note_stry All references to this story will be deleted, but the story itself will be moved to RECYCLE BIN, rather than actually deleted.
+
+set_flw_author Automatically add items authored by myself
+set_flw_task Automatically add tasks assigned to me
+set_flw_prog Automatically add items from rundowns in which I am assigned as the editor
+set_stry_lst_scnr Show RUNDOWN column in stories catalogue
+set_dsk_cvr_collapse On the news page open all CGs
+set_dsk_cndz_author The AUTHOR filter in the catalogs to include journalists of <i>all</i> channels
+
+err_prgm_exists The program with such name already exists.
+
+[/dsk]
+
+
+[epg]
+
+print_continuous Print continuously, no page-breaks.
+term_faulty Term is faulty.
+epg_restart Page is not updated, restart in
+mos_disabled %s "<b>%s</b>" - cannot have %s.
+episodes_master_controls MASTER controls <br><i>(for all episodes)</i>
+bc_add_manually New broadcast record.<br>Insert date in following format: dd.mm.yyyy.
+bccur_correction The program has corrected broadcast count record.
+err_epg_stry Story is already connected with program
+err_empty_element Element can not be empty
+err_empty_prog You have to choose the program
+err_mktplan_assoc is already connected with
+err_block_label_exists Block note already exists
+
+set_film_list_show_contracts Show CONTRACT column in films catalogue
+set_film_list_show_genre In films catalogue, show genres for each film in the list
+set_film_list_bc_show_all_channels In films catalogue, show broadcast list for ALL channels instead of only for the selected channel
+set_scnr_prompter_element_labels In the PROMPTER view, show labels for SKOP and EXT story elements
+set_scnr_recs_vo In the SKOP view, show voiceover cadre material
+set_scnr_list_cam In the LIST view, show camera numbers
+set_epg_list_filter_teams The elements filter uses newsroom teams instead of element types (LIST view)
+set_epg_calendar Show calendar bar
+set_epg_notes_hide Display notes on elements as tooltip labels
+set_epg_show_skop_cvr Show notes for SKOP CG orders
+set_epg_hide_inactives In the LIST view, hide inactive lines
+
+phz_err_top This story is already in the last phase.
+phz_err_pms You do not have sufficient user permissions to raise the phase for this story.
+spc_hidden_wrapclips Clips in blocks have been hidden, so the item could have been moved to the place you do not want, for example, in front of the opening clip.<br>The program will now show you those clips, so try again to move the item.
+mktuptd_termcheck Auto-update of associated marketing block in epg is turned off for the past terms.
+mpi_replace_same The replacement item is THE SAME!
+mpi_replace_del You do not want to replace it, but to DELETE it?
+
+[/epg]
+
+
+[admin]
+
+err_sec_format %s may contain letters, numbers, and these characters: .-_
+new_ad_acc New AD account
+ad_pass_rules Must have minimum 8 characters, including at least one capital letter and one number.
+ad_pass_blank If left blank, the script will randomly compile the password.
+err_pass_req Maybe the password is too simple
+err_fsize_large The log is too large (%s), it is better to download it and view it from your computer!
+
+set_db_arhiver After how many days to ARCHIVE schemes and stories
+set_jnt_epgxml How many days to keep in epgxml directory
+set_jnt_stry_versions How many days to keep for stry_versions table
+set_jnt_stry_trash After how many days to delete stories from RECYCLE BIN
+set_jnt_log_sql How many days to keep for log_qry/log_sql tables
+set_jnt_log_mdf How many days to keep for log_mdf table
+set_jnt_log_inout How many days to keep for log_in_out table
+
+[/admin]

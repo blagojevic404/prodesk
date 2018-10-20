@@ -1,0 +1,45 @@
+1 ProDesk
+2 Desk
+3 Organizacija
+7 Program
+8 <span class="glyphicon glyphicon-star"></span>
+
+31 Struktura
+32 Radnici
+35 Moja grupa
+36 Moja stranica
+
+22 Emisije
+23 Redakcije
+24 EGO
+27 Vijesti
+29 Moj Desk
+
+70 Plan
+71 Danas
+72 Arhiva
+73 Šabloni
+74 Marketing
+75 Promocija
+76 Klipovi
+77 Film
+
+80 Pregled
+81 Jezik
+82 Logovi
+83 AD
+84 PHP
+85 Tester
+86 FTP
+87 Alati
+
+201 <span class="glyphicon glyphicon-home"></span>
+202 <span class="glyphicon glyphicon-wrench"></span>
+203 <span class="glyphicon glyphicon-trash"></span>
+
+204 Uputstvo
+205 Postavke
+206 Sadržaj
+207 Izlaz
+208 Korpa
+209 Admin

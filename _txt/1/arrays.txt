@@ -1,0 +1,323 @@
+[languages]
+1 YU /ћир/
+2 YU /lat/
+3 Руски
+4 Енглески
+[/languages]
+
+[channel_types]
+1 ТВ
+2 Радио
+[/channel_types]
+
+[log_actions]
+1 Пишем
+2 Измјене
+3 Бриши
+4 Корпа
+5 Врати
+6 Копија
+7 Премјести
+60 Екипа
+61 Снимак
+62 Напомена
+63 Шема
+[/log_actions]
+// keys 100-110 are reserved for phases
+
+
+
+
+
+
+
+
+
+
+[epg_line_types]
+1 Емисија
+2 Вијест
+3 Маркетинг
+4 Промоција
+5 Клип
+6 Задатак
+7 Уживо
+8 Напомена
+9 Простор
+10 Сегмент
+11
+12 Филм
+13 Серија
+14 Линк
+20 Атом
+[/epg_line_types]
+
+[epg_view_types]
+0 Листа
+1 Стабло
+2 ЕГО
+6 Инџест
+4 Веб
+8 Маркетинг <span class="glyphicon glyphicon-piggy-bank"></span>
+9 Промоција <span class="glyphicon glyphicon-bullhorn"></span>
+10 Филм <span class="glyphicon glyphicon-sunglasses"></span>
+11 Експорт <span class="glyphicon glyphicon-export"></span>
+5 Корпа <span class="glyphicon glyphicon-trash"></span>
+[/epg_view_types]
+
+[scnr_view_types]
+0 Листа
+1 Стабло
+3 Скрипт
+2 ЕГО
+6 Скоп
+7 Промптер
+5 Корпа <span class="glyphicon glyphicon-trash"></span>
+[/scnr_view_types]
+
+[epg_crew_types]
+1 Уредник
+2 Водитељ
+3 Реализатор
+4 Продуцент
+5 Новинар
+6 Сниматељ
+7 Монтажер
+8 Тон-мајстор
+9 Видео-миксер
+10 ЕГО
+11 Техничко вођство
+12 Главни уредник
+13 Шеф деска
+[/epg_crew_types]
+
+[epg_material_types]
+1 Уживо
+2 Снимак
+3 Реприза-Снимак
+[/epg_material_types]
+
+[epg_mattyp_signs]
+1 <span class="glyphicon glyphicon-facetime-video"></span>
+2
+3 Р
+[/epg_mattyp_signs]
+
+[epg_note_types]
+1 Напомена
+3 Упозорење
+[/epg_note_types]
+
+[tmpl_sort]
+0 По времену (ID)
+1 По азбуци
+[/tmpl_sort]
+
+[epg_cover_types]
+1 Потпис
+2 Крол
+3 Текст блок
+4 Графика
+5 Графика (мала)
+6 Летвица
+7 Одјавна шпица
+8 Позадина
+9 Инсертер
+10 СКОП (Инсертер)
+[/epg_cover_types]
+
+[epg_clp_ctgz]
+1 Маркетинг
+2 Промоција
+3 Емисије (Сценарио)
+4 Програм (Шема)
+[/epg_clp_ctgz]
+
+[epg_clp_place]
+1 најавна шпица
+2 одјавна шпица
+3 најавна/одјавна шпица
+[/epg_clp_place]
+
+[epg_prm_ctgz]
+1 Промо
+6 Обавезе
+7 Обавезе хуманитарне
+2 Преглед програма
+3 Вечерас на програму
+9 Вечерас са вама
+4 Дневник 2
+5 Дневник 3
+10 Српска Данас
+8 Мултиплекс Палас
+11 По потреби
+[/epg_prm_ctgz]
+
+[epg_cvr_displays]
+1 само налози везани за датум
+2 само налози по емисијама
+3 сви налози
+[/epg_cvr_displays]
+
+[epg_mktblc_positions]
+0 Прекид
+1 Пред
+2 Иза
+[/epg_mktblc_positions]
+
+[epg_mktplan_wrapclips]
+0 обје (нормално)
+1 само предња
+2 само задња
+3 без обје
+[/epg_mktplan_wrapclips]
+
+[epg_mktplan_twinview_types]
+0 Везе <span class="glyphicon glyphicon-link"></span>
+1 Проба <span class="glyphicon glyphicon-thumbs-up"></span>
+2 Синхронизација <span class="glyphicon glyphicon-transfer"></span>
+[/epg_mktplan_twinview_types]
+
+
+[dsk_nwz_phases]
+1 Аутор
+2 Уредник
+3 Лектор
+4 Готово
+[/dsk_nwz_phases]
+
+[status_stry]
+1 повезане вијести
+2 слободне вијести
+[/status_stry]
+
+[dsk_atom_live_techtyp]
+0 Екстерно
+1 Студио
+[/dsk_atom_live_techtyp]
+
+[dsk_atom_live_techtyp_short]
+0 ЕКСТ
+1 ГОСТ
+[/dsk_atom_live_techtyp_short]
+
+[atom_jargons]
+1 Основни
+2 Семантички
+3 Октопус
+4 Стари
+5 Тонски
+[/atom_jargons]
+
+[atom_jargons.1]
+1 КАМ
+2 СКОП
+3 ЖИВО
+[/atom_jargons.1]
+
+[atom_jargons.2]
+1 Читање
+2 Снимак
+3 Уживо
+[/atom_jargons.2]
+
+[atom_jargons.3]
+1 ST
+2 PKG
+3 LIVE
+[/atom_jargons.3]
+
+[atom_jargons.4]
+1 КАМ
+2 СКОП
+3 ЕКСТ
+[/atom_jargons.4]
+
+[atom_jargons.5]
+1 ЖИВО
+2 ТОН
+3 ЕКСТ
+[/atom_jargons.5]
+
+[dsk_flw_types]
+1 Пратим
+2 Задато
+3 Аутор
+4 Уредник
+[/dsk_flw_types]
+
+[prod_types]
+1 Властита
+2 Страна
+3 Независна
+[/prod_types]
+
+
+
+
+
+[film_types]
+1 Филм
+2 Мини-серија
+3 Серија
+[/film_types]
+
+
+[film_sections]
+1 Играни
+2 Документарни
+3 Дјечији
+9 Остало
+[/film_sections]
+
+
+[film_genres]
+1 Акција
+2 Авантура
+17 Биографски
+15 Вестерн
+6 Дјечји
+5 Драма
+18 Историјски
+3 Комедија
+4 Крими
+11 Романса
+10 Мјузикл
+19 Мистерија
+12 Научна фантастика
+16 Породични
+14 Ратни
+13 Трилер
+7 Фантазија
+9 Хорор
+8 Црно-бијели
+21 Биографски
+22 Историјски
+24 Мистерија
+23 Музика
+25 Спорт
+30 Цртани
+31 Омладински
+32 Образовни
+[/film_genres]
+
+
+[film_languages]
+1 домаћи
+2 енглески
+3 руски
+4 шпански
+5 италијански
+6 француски
+7 њемачки
+8 португалски
+9 чешки/словачки
+20 остали
+[/film_languages]
+
+
+[hrm_contract]
+1 стални
+2 привремени
+3 ауторски / по дјелу
+[/hrm_contract]

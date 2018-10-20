@@ -1,0 +1,89 @@
+// page-specific css for epg_modify (single) pages
+
+@import 'base';
+
+
+
+div.form-group div a.del {
+  float: right;
+  margin: 5px 7px 2px 0;
+}
+
+
+div.dur { background-color: $durforc; }
+
+div.durcalc,
+input[type="text"].durcalc-lbl { background-color: $durcalc; }
+
+div.durapprox,
+input[type="text"].durapprox-lbl { background-color: #fdd; }
+
+
+div.term-fixed { background-color: $termfix; }
+
+div.term-rel { background-color: $termrel; }
+
+input#Tip { background-color: $line_note; }
+
+
+div.durcalc input.hms_ff {
+  background-color: #ffc;
+  color: #bbb;
+}
+
+
+div.dur,
+div.term-fixed,
+div.term-rel {
+  border: 1px solid #d0d0d0;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+
+
+
+
+a.ifrm.resetbtn { right: 17px; }
+a.hms.resetbtn { right: 20px; }
+
+div.panel-body,
+div.form.panel {
+  background-color: $field-bg;
+}
+
+
+table.crw {
+  @include cellspacing(2px);
+
+    td {
+        background-color: #e0e0e0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+#mos_alert {
+  padding: 5px;
+  display: none;
+}
+
+div.content {
+  &.not-tunel input[type="submit"] {
+    margin-top: 30px;
+  }
+  &.ifrm-tunel input[type="submit"] {
+    margin-top: -15px;
+    margin-bottom: 2px;
+  }
+}
+
+
+div.panel span.glyphicon-circle-arrow-right {
+  padding-right: 5px;
+}
+
+
+textarea#alphconv {
+  margin-top: 10px;
+}

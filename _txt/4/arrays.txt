@@ -1,0 +1,323 @@
+[languages]
+1 YU /cyr/
+2 YU /lat/
+3 Russian
+4 English
+[/languages]
+
+[channel_types]
+1 TV
+2 Radio
+[/channel_types]
+
+[log_actions]
+1 Add
+2 Modify
+3 Delete
+4 Recycle Bin
+5 Undo
+6 Copy
+7 Move
+60 Crew
+61 Record
+62 Note
+63 Schema
+[/log_actions]
+// keys 100-110 are reserved for phases
+
+
+
+
+
+
+
+
+
+
+[epg_line_types]
+1 Program
+2 Story
+3 Marketing
+4 Promotion
+5 Clip
+6 Task
+7 Live
+8 Note
+9 Space
+10 Segment
+11 CG
+12 Film
+13 Serial
+14 Link
+20 Atom
+[/epg_line_types]
+
+[epg_view_types]
+0 List
+1 Tree
+2 CG
+6 Ingest
+4 Web
+8 Marketing <span class="glyphicon glyphicon-piggy-bank"></span>
+9 Self-promotion <span class="glyphicon glyphicon-bullhorn"></span>
+10 Film <span class="glyphicon glyphicon-sunglasses"></span>
+11 Export <span class="glyphicon glyphicon-export"></span>
+5 Trash <span class="glyphicon glyphicon-trash"></span>
+[/epg_view_types]
+
+[scnr_view_types]
+0 List
+1 Tree
+3 Script
+2 CG
+6 Records
+7 Prompter
+5 <span class="glyphicon glyphicon-trash"></span>
+[/scnr_view_types]
+
+[epg_crew_types]
+1 Editor
+2 Presenter
+3 Director
+4 Producer
+5 Journalist
+6 Cameraman
+7 Montages
+8 Sound engineer
+9 Video-mixer
+10 CG
+11 Master engineer
+12 Chief editor
+13 Newsdesk chief
+[/epg_crew_types]
+
+[epg_material_types]
+1 Live
+2 Recorded
+3 Rerun-Recorded
+[/epg_material_types]
+
+[epg_mattyp_signs]
+1 <span class="glyphicon glyphicon-facetime-video"></span>
+2
+3 R
+[/epg_mattyp_signs]
+
+[epg_note_types]
+1 Note
+3 Warning
+[/epg_note_types]
+
+[tmpl_sort]
+0 By time (ID)
+1 By alphabet
+[/tmpl_sort]
+
+[epg_cover_types]
+1 Name/Title
+2 News ticker
+3 Text block
+4 Graphics
+5 Graphics (small)
+6 Lath
+7 Credits
+8 Background
+9 Inserter
+10 SKOP (Inserter)
+[/epg_cover_types]
+
+[epg_clp_ctgz]
+1 Marketing
+2 Promotion
+3 Programs
+4 Schedule
+[/epg_clp_ctgz]
+
+[epg_clp_place]
+1 opens
+2 closes
+3 opens/closes
+[/epg_clp_place]
+
+[epg_prm_ctgz]
+1 Promo
+6 Promo ext
+7 Promo humanitarian
+2 Schedule
+3 Tonight on the program
+9 Tonight with you
+4 News at 20:00
+5 News at 23:00
+10 News at 17:00
+8 Promo Cinema
+11 As needed
+[/epg_prm_ctgz]
+
+[epg_cvr_displays]
+1 only orders for the date
+2 only orders for the programs
+3 all orders
+[/epg_cvr_displays]
+
+[epg_mktblc_positions]
+0 Break
+1 Before
+2 After
+[/epg_mktblc_positions]
+
+[epg_mktplan_wrapclips]
+0 both (default)
+1 only opening
+2 only closing
+3 none
+[/epg_mktplan_wrapclips]
+
+[epg_mktplan_twinview_types]
+0 Siblings <span class="glyphicon glyphicon-link"></span>
+1 Probe <span class="glyphicon glyphicon-thumbs-up"></span>
+2 Sync <span class="glyphicon glyphicon-transfer"></span>
+[/epg_mktplan_twinview_types]
+
+
+[dsk_nwz_phases]
+1 Author
+2 Editor
+3 Proofreader
+4 Ready
+[/dsk_nwz_phases]
+
+[status_stry]
+1 connected stories
+2 free stories
+[/status_stry]
+
+[dsk_atom_live_techtyp]
+0 External
+1 Studio
+[/dsk_atom_live_techtyp]
+
+[dsk_atom_live_techtyp_short]
+0 EXT
+1 ST
+[/dsk_atom_live_techtyp_short]
+
+[atom_jargons]
+1 Basic
+2 Semantic
+3 Octopus
+4 Old
+5 Radio-Tone
+[/atom_jargons]
+
+[atom_jargons.1]
+1 CAM
+2 SKOP
+3 LIVE
+[/atom_jargons.1]
+
+[atom_jargons.2]
+1 Reader
+2 Tape
+3 Live
+[/atom_jargons.2]
+
+[atom_jargons.3]
+1 ST
+2 PKG
+3 LIVE
+[/atom_jargons.3]
+
+[atom_jargons.4]
+1 CAM
+2 SKOP
+3 EXT
+[/atom_jargons.4]
+
+[atom_jargons.5]
+1 LIVE
+2 TONE
+3 EXT
+[/atom_jargons.5]
+
+[dsk_flw_types]
+1 Follow
+2 Assigned
+3 Author
+4 Editor
+[/dsk_flw_types]
+
+[prod_types]
+1 Own
+2 Others
+3 Independent
+[/prod_types]
+
+
+
+
+
+[film_types]
+1 Film
+2 Mini-serial
+3 Serial
+[/film_types]
+
+
+[film_sections]
+1 Movie
+2 Documentary
+3 Children's
+9 Other
+[/film_sections]
+
+
+[film_genres]
+1 Action
+2 Adventure
+17 Biography
+15 Western
+6 Children's
+5 Drama
+18 History
+3 Comedy
+4 Crime
+11 Romance
+10 Musical
+19 Mystery
+12 Sci-Fi
+16 Family
+14 War
+13 Thriller
+7 Fantasy
+9 Horror
+8 Film-Noir
+21 Biography
+22 History
+24 Mystery
+23 Music
+25 Sport
+30 Cartoon
+31 Youth
+32 Educational
+[/film_genres]
+
+
+[film_languages]
+1 YU
+2 english
+3 russian
+4 spanish
+5 italian
+6 french
+7 german
+8 portuguese
+9 czech/slovak
+20 other
+[/film_languages]
+
+
+[hrm_contract]
+1 permanent
+2 fixed-term
+3 agreement / service
+[/hrm_contract]

@@ -1,0 +1,100 @@
+// UL GRID (similar to bs-glyphicons grid).. Used for epg-plan calendar
+
+@import '../base';
+
+
+
+
+#ulgrid {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    float: left;
+    width: 25%;
+    padding: 10px 10px 15px 10px;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #fff;
+    color: #999;
+  }
+
+  li:hover {
+    color: #fff;
+    background-color: #563d7c !important;
+
+    a {
+      color: #563d7c;
+      background-color: #c6adec;
+      border-color: #333;
+    }
+  }
+
+  li a.title {
+    color: $text-black;
+  }
+  li:hover a.title {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  li.epg_ready_not {
+    background-color:#f2dede;
+  }
+
+  .title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    .dd {
+      font-size: 38px;
+      padding-right: 13px;
+    }
+    .rowspan {
+      display: inline-block;
+    }
+    .month {
+      font-size: 8px;
+      text-transform: uppercase;
+    }
+    .weekday {
+      font-size: 16px;
+    }
+  }
+
+  .controls {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+
+    a {
+      margin:0 5px;
+      color: #ccc;
+    }
+    a:hover {
+      color: $text-black;
+      background-color: #fff;
+
+      span.glyphicon-ok {
+        color: #0a0;
+      }
+      span.glyphicon-ban-circle {
+        color: #a00;
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  #ulgrid {
+    margin-right: 0;
+    margin-left: 0
+  }
+
+  #ulgrid li {
+    width: 14%;
+  }
+}

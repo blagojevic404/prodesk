@@ -1,0 +1,93 @@
+// Used in sch table, both in *details* and *mdf_multi* script
+
+@import '../base';
+
+
+table.schtable {
+
+  background-color: $body-bg; border: 3px solid $body-bg; // table border
+  width: 100%;
+  margin-bottom: 10px;
+  @include cellspacing(1px);
+
+  table.prg { border-color: $line_prg; }
+  table.mkt { border-color: $line_mkt; }
+  table.prm { border-color: $line_prm; }
+
+  td.prg { background-color: $line_prg; }
+  td.mkt { background-color: $line_mkt; }
+  td.prm { background-color: $line_prm; }
+  td.clp { background-color: $line_clp; }
+  td.film { background-color: $line_film; }
+  td.liveair { background-color: $line_prg; }
+  td.note { background-color: $line_note; }
+  td.hole { background-color: $line_hole; color: $line_hole_clr; }
+  td.segmento { background-color: $line_segment; color: $line_segment_clr; }
+  table.tblsheet td.segmento { color: $text-black; }
+
+  td.dur { background-color: #dedede; }
+  td.durepg { background-color: $durepg; }
+  td.durforc { background-color: $durforc; }
+  td.durcalc { background-color: $durcalc; }
+  td.term { background-color: $termcalc; }
+  td.fixed { background-color: $termfix; }
+  td.rel { background-color: $termrel; }
+  td.termhold { color: $text-black !important; }
+
+  td.term,
+  td.dur {
+    text-align: center;
+  }
+
+  a.squiz {
+    font-size: 16px;
+    padding: 0 3px;
+    font-weight: bold;
+    position: relative;
+  }
+
+  td.film span.lblprog3,
+  td.prg span.lblprog3 {
+    margin-left: 10px;
+  }
+}
+
+
+td.squiztyp {
+  padding: 7px 0;
+
+  table.epg_mdf & {
+    border-bottom: 4px solid white !important;
+    height: 44px;
+  }
+}
+div.squiztyp { // Bottom row in mdf_multi
+  padding: 10px 0;
+}
+.squiztyp {
+  background-color: #d0d0d0;
+
+  a.prg, a.prg:visited { background-color: $line_prg; }
+  a.mkt, a.mkt:visited { background-color: $line_mkt; }
+  a.prm, a.prm:visited { background-color: $line_prm; }
+  a.clp, a.clp:visited { background-color: $line_clp; }
+  a.film, a.film:visited { background-color: $line_film; }
+  a.liveair, a.liveair:visited { background-color: $line_prg; }
+  a.note, a.note:visited { background-color: $line_note; }
+  a.hole, a.hole:visited { background-color: $line_hole; color: $line_hole_clr; }
+  a.segmento, a.segmento:visited { background-color: $line_segment; color: $line_segment_clr; }
+
+  a,
+  a:hover {
+    color: $text-black;
+    border-color: #777;
+  }
+  a {
+    margin: 0 4px;
+    min-width: 75px;
+  }
+  a:hover{
+    background-color: #fff;
+  }
+}
+

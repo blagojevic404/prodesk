@@ -1,0 +1,53 @@
+@import '../base';
+
+
+table.lng {
+  table-layout: fixed;
+
+  td, th {
+    height: 31px;
+    border-top-color: #fff !important;
+    border-right: 1px dotted #fff;
+  }
+
+  tr:hover {
+
+    td {
+      background-color: #fff;
+      border-color: #ccc;
+    }
+    th {
+      background-color: inherit;
+    }
+  }
+  tr th {
+    border-top: none;
+  }
+
+  td.empty_err {
+    background-color: #f50000;
+  }
+  td.empty_ok {
+    background-color: $field-bg;
+  }
+
+  th:first-child,
+  td:first-child,
+  td:nth-last-child(2) {
+    border-right: none;
+  }
+
+  tr:hover td:first-child {
+    border-right: 1px dotted #ccc !important;
+  }
+
+  tr:last-child:hover td {
+    border-right: none !important;
+    border-left: none !important;
+  }
+}
+
+ol.breadcrumb > li > span.glyphicon {
+  color: #ccc;
+}
+

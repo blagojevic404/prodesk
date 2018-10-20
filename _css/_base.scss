@@ -1,0 +1,75 @@
+
+// Background
+
+$body-bg: #fff; // BS body background-color
+$field-bg: #f5f5f5; // BS field background-color
+
+$durepg: #cec;
+$durforc: #dfd;
+$durcalc: #df9;
+
+$termcalc: #cdf;  // term calc --- default
+$termfix: #aef;
+$termrel: #dcf;
+
+$term_finito: #ffd999;
+
+$line_prg: #f0f0f0;
+$line_mkt: #f9f5db;
+$line_prm: #ece8ce;
+$line_clp: #ffeadd;
+$line_film: #f7e7f7;
+$line_hole: #f8f8f8;
+$line_note: #ffc;
+$line_segment: #8296ae;
+
+$th-bg: #969696;
+
+$bg-inactv: #ccc;
+$bg-inactv-obj: #ddd;
+
+
+
+// Text
+
+$text-black: #333; // BS default textcolor is #333, not #000
+$text-inactv: #999;
+
+$lbl_live: #f00;
+
+$line_hole_clr: #f00;
+$line_segment_clr: #fff;
+
+$numero: #c2c6ce;
+
+
+
+
+
+@mixin pad-vert($size) {
+  padding-top: $size;
+  padding-bottom: $size;
+}
+
+@mixin satur($n: null) {
+  @if $n == null {
+    -webkit-filter: none;
+    filter: none;
+  } @else {
+    -webkit-filter: saturate($n);
+    filter: saturate($n);
+  }
+}
+
+@mixin abs-top($top, $left: null, $right: null) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  left: $left;
+}
+
+@mixin cellspacing($size) {
+  border-collapse: separate;
+  border-spacing: $size;
+}
+

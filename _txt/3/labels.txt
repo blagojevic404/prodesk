@@ -1,0 +1,303 @@
+[common]
+
+// combo
+all [все]
+undefined [не указано]
+
+// header
+displayed Показано в
+
+id ID
+default По умолчанию
+noth (нет)
+
+body Текст
+type Тип
+dsc Описание
+date Дата
+time Время
+logs Лог
+note Заметка
+title Заголовок
+name Название
+author Автор
+update Обновление
+crew Роли
+duration Долгота
+instruction Инструкция
+group Группа
+label Метка
+alphconv Текст конвертор
+printer Печать: размер
+language Язык
+search Поиск
+account Аккаунт
+name1 Имя
+name2 Фамилия
+pass Пароль
+position Позиция
+
+// epg-dsk
+calc вычислено
+forced планируемо
+stry Новост
+task Задача
+usage Использование
+cvr Знакогенератор
+speaker Диктор
+read_speed Скорость чтения
+epg Схема
+rundown Сценарий
+program Программа
+archive Архив
+website Веб-сайт
+state Статус
+web_live Прямой эфир (онлайн)
+web_vod Веб-видео по запросу
+cg_copy_text Скопировать текст
+cg_alphconv Преобразование текста (UTF&gt;DOS)
+average В среднем
+term Время
+production Производство
+team Команда
+jargon4_cam_single Весть
+jargon4_cam_simple Анонс
+jargon3_cam_simple Reader
+jargon3_cam_vo VO
+dsc_epg Подзаголовок (для схемы)
+
+// buttons
+cancel Отмена
+continue ОК
+delete Удалить
+modify Изменить
+save Сохранить
+create Создать
+import Импорт
+content Содержание
+restart Перезапуск
+send Послать
+close Закрыть
+switch Включить / Исключить
+replacing Замена
+replace Заменить
+opp_actv неактивное/активное
+opp_ready не готово/готово
+opp_yesno нет/да
+
+[/common]
+
+
+
+
+[ndx]
+
+atom_jargon Жаргон (для новостей)
+channel Канал
+
+[/ndx]
+
+
+
+
+[hrm]
+
+chief Заведующий
+parent_group Над-группа
+
+worker Сотрудник
+position Должность
+fathername Отчество
+contract_type Тип контракта
+gender Пол
+opp_gender Ж/М
+admin Админ
+
+list Список
+tree Древо
+
+abv А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Э Ю Я
+letter_cond Буква
+
+[/hrm]
+
+
+
+
+[epg]
+
+place Место
+target Назначение
+theme Тема
+error Ошибка
+filter Фильтр
+template Шаблон
+chose_template Выберите шаблон
+bcasts Трансляции
+client Клиент
+clients Клиенти
+link Связать
+unlink Разъединить
+
+// Term types. Do not delete!
+fixed фиксировано
+rel относительно
+
+// Spice types. Do not delete!
+mkt Маркетинг
+prm Промоция
+clp Клип
+
+// Film and spice sections. Do not delete!
+item Предмет
+block Блок
+contract Контракт
+agent Агентство
+items Предметы
+blocks Блоки
+contracts Контракты
+agents Агентства
+
+// film
+select_all Выбрать все
+value Сумма
+licence Лицензия
+licence_type Тип лицензии
+episodes Эпизоды
+episode_count Количество эпизодов
+format Формат
+delivered Доставлено
+bc_max Максимум трансляции
+bc_numbers Счетчик трансляции
+bc_list Список трансляции
+verification Подтвердить
+approx Приблизительно
+finish Конец
+start Начало
+correct Точно
+recent Недавно
+sum Сумма
+auto-correct Самокоррекция
+opp_fulfill выполнено/не выполнено
+
+// film dsc
+title_original Оригинальное название
+country Страна
+year Год
+director Директор
+writer Писатель
+actors Актеры
+dsc_short Объявление
+dsc_long Синопсис
+genre Жанр
+channels Каналы
+seasons Сезоны (для схемы)
+
+// mdf_single
+material_type Тип материала
+parental Минимальный возраст (для схемы)
+record Сделать запись для повтора
+controlroom Вещание
+premiere Премьера
+
+// buttons
+delete_all Удалить все
+start_empty_epg Начать пустую схему
+copy_another_epg Скопировать другую схему
+import_epg_tmpl Импортировать шаблон
+
+// market plan
+mkt_plan План
+mkt_epg Реал
+in_block_pos Позиция в блоке
+video_id Видео ИД
+block_newitem Добавить новый элемент в блок
+wrapclips Клипсы
+bumper Бампер
+not_found Не найдено
+other Другое
+gratis Бесплатно
+
+// epg header btn tooltips
+show_note_ctrlz Показать поля для заметок в элементах
+show_cam_ctrlz Показать поля для выбора камеры
+show_cam_vo Показать поля для voice-over кадр
+show_cvr Показать предметы для знакогенератора
+show_elm_text Показать/скрыть текст всех элементов
+show_text_ending Показать последние слова из текста
+show_hide показать/скрыть
+
+do_ajax_uptodate Включить автоматическую up-to-date проверку расписания
+epg_list_short Только живые программы
+epg_list_progs Только программы и фильмы
+
+[/epg]
+
+
+[dsk]
+
+followz Следить
+copies Копии
+phase Фаза
+item Предмет
+unproofed Без корректуры
+pms Права доступа
+pms_for для прав доступа
+opp_pms_loose Жесткие/Свободные
+web_hide Не показывать в веб-расписанию
+epg_rerun Сделать запись для повтора
+epg_skip_dflt_tmpl_auto_import Выключен автоматический импорт стандартного шаблона для сценарий
+prgm_security Строгие правила безопасности (только редактор может читать новости)
+versions Версии
+ctrl_cam_only Только ЧТЕНИЕ/КАМ
+
+// settings
+start Старт
+finito Стоп
+clear Очистить
+reader_colors Цвета для дикторов (в СКРИПТ просмотре)
+formula Формула
+text_len длина текста
+time время
+chars_per_sec символов в секунду
+
+[/dsk]
+
+
+[admin]
+
+cnt_users_active Количество активных учетных записей
+cnt_users_login Количество учетных записей, которые использовались в течение предыдущих 1/7/30 дней
+scrambler Шифратор
+janitor Уборка
+scheduler Планировщик задач
+
+[/admin]
+
+
+
+[mos]
+
+record Запись
+label Метка
+path Путь к файлу
+tc-in tc IN
+tc-out tc OUT
+tc-in-out TC IN/OUT
+prep Подготовка
+duration Долгота
+
+[/mos]
+
+
+
+[list]
+
+results Результаты
+of_total от общего числа
+sec сек.
+filter Фильтры
+period Период
+deleted_by Удалил
+
+[/list]

@@ -1,0 +1,428 @@
+// page-specific css for epg spice pages
+
+@import '../base';
+
+
+
+
+
+
+
+div#spiceblock {
+
+  &.dtl ,
+  & table {
+    border-width: 2px 4px 2px 3px;
+    border-color: white;
+    border-style: solid;
+  }
+  div#wrapdiv div {
+    height: 50px;
+    border-width: 2px 0 2px 1px;
+    border-color: #fff;
+    border-style: solid;
+  }
+  div.switchedoff div {
+    background-color: #e2e6eb !important;
+  }
+
+  #numero {
+    font-size: 32px;
+    font-weight: bold;
+    color: $numero;
+  }
+
+  #dur {
+    background-color: $durcalc;
+    padding-top: 12px;
+    font-size: 16px;
+  }
+
+  .mkt div { background-color: $line_mkt; }
+  .prm div { background-color: $line_prm; }
+  .clp div { background-color: $line_clp; }
+
+  #cpt {
+    padding-top: 6px;
+    font-size: 24px;
+    position: relative;
+
+    a#sleep,
+    a#del {
+      position:absolute;
+      top: 2px;
+      font-size: 20px;
+    }
+    a#sleep {
+      right: 30px;
+    }
+    a#del {
+      right: 3px;
+    }
+  }
+}
+
+
+
+div.ifrmbuttons {
+  margin-top:10px;
+  padding-left: 3px;
+
+  a {
+    margin-right: 10px;
+  }
+}
+
+
+
+td.td_listing_ctrl {
+  text-align: right;
+
+  a {
+    margin-right: 15px;
+  }
+  a:last-child {
+    margin-right: 0;
+  }
+}
+td.td_listing_pos {
+  white-space: pre;
+}
+
+
+div.block_ctrl.well {
+  padding: 15px 5px 0 5px;
+
+  #BlockTermEPG {
+    width: 80px;
+  }
+}
+
+#BLC_Label_new, td.blc_label input {
+  background-color: $field-bg;
+}
+
+table.mktplan_mdfmulti {
+
+  td.dateepg input {
+    max-width: 130px;
+  }
+  button#btn_new {
+    color: $text-black;
+    border: none;
+    background: transparent;
+    padding: 2px 0 0 0;
+    font-size: 22px;
+
+    &:hover {
+      background: green;
+      color: white;
+    }
+  }
+  tr#master_controls td * {
+    background-color: $field-bg;
+  }
+}
+
+.modal_mdf_all,
+.modal_mdf_all div.block_ctrl.well {
+  background-color: #fffcc8;
+}
+
+
+
+
+
+table.mktplan {
+  margin-top: 16px;
+  @include cellspacing(1px);
+
+  td {
+    font-size: 14px;
+    text-align: center;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  td.unequal,
+  td.cpt {
+    text-align: left;
+  }
+
+  td.numero {
+    width: 30px;
+  }
+  td.tframe,
+  td.term,
+  td.dur {
+    width: 1px;
+  }
+  td.tframe {
+    color: #ccc;
+  }
+
+  td.plan.cpt a[type=button] {
+    margin-left: 10px;
+  }
+
+  tr.block:hover td { color: $text-black; background-color: #ccc !important;}
+  tr.item:hover td { color: $text-black; background-color: #ddd !important;}
+
+  tr.block {
+    td.cpt,
+    td.numero,
+    td.tframe { background-color: #ddd; }
+    td.term { background-color: $termcalc; }
+    td.dur { background-color: $durepg; }
+  }
+
+  td.simple,
+  tr.item td { background-color: $field-bg; }
+
+  tr.block td.unequal { background-color: #e2cece; }
+  tr.item td.unequal { background-color: #f2dede; }
+
+  td.err_dngr { background-color: #f00 !important; color: #fff; }
+  td.err_warn { background-color: #fa0 !important; }
+
+  td.synco_a { background-color: #fffd98; }
+  td.synco_b { background-color: #fa0; }
+  td.synco_none { background-color: #ff5442; }
+  td.synco_new { background-color: #00ff00; }
+
+  tr.item td.epg.cpt.clp a { color: #990073; }
+
+  td.err_info, span.err_info { background-color: #ff0 !important; margin-left: 5px;}
+}
+
+tr.marginer td {
+  height: 5px;
+  padding: 0 !important;
+  border-top: none !important;
+}
+
+tr.block {
+
+  td {
+    border-top: 1px solid #ccc !important;
+  }
+  td.numero {
+    font-size: 110%;
+    padding-bottom: 0;
+    padding-top: 4px;
+  }
+
+  td.equaling {
+    line-height: 15px;
+    position: relative;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      position: absolute;
+      left:-1px;
+    }
+    a:hover {
+      background-color: #00f;
+      color: #fff;
+    }
+  }
+}
+
+tr.block td.equaling, td.equaling {
+  border-top-width: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+}
+
+tr.item td { font-size: 93%; }
+tr.item td.cpt { font-size: 100%; }
+
+tr.item td.cpt a.cpt {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+tr.block td.plan.cpt span.cpt {
+  font-weight: bold;
+}
+td.cpt .lbl_right {
+  font-style: normal;
+}
+
+a.unlinker {
+  margin-right: -10px;
+  margin-left: -10px;
+
+  span.glyphicon-remove {
+    left: -7px; top: 4px;
+  }
+}
+
+
+table#epg_table.mkt td.err_dngr {
+  font-weight: bold;
+}
+
+table.mktplan td.plan.cpt span.note,
+table.listingz span.note {
+  padding: 1px 4px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+table.listingz span.note.blc {
+  font-weight: bold;
+}
+
+
+div.btn-group.mktplan_twinviewtyp {
+  margin-left: 15px;
+}
+
+
+a#mkt_sync_epg_btn,
+a#mkt_sync_epg_submit {
+  position: fixed;
+  left: 10px;
+  top: 120px;
+  font-size: 12px;
+}
+a#mkt_sync_epg_submit {
+  left: 30px;
+  display: none;
+}
+div#mkt_sync_epg_field {
+  position: fixed;
+  left: 10px;
+  top: 140px;
+  width: 282px;
+  height: 600px;
+  background-color: white;
+  border: 1px solid #aaa;
+  box-shadow: 3px 3px #777;
+  z-index: 1;
+  white-space: pre;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 15px 5px;
+  display: none;
+
+  &:hover {
+    overflow-y: scroll;
+  }
+
+  &.ctrl_less {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 278px;
+  }
+  &.ctrl_less:hover,
+  &.ctrl_less p span {
+    background-color: white;
+  }
+
+  p.nattyp3 {
+    color: #ff5000;
+  }
+}
+
+
+
+a.epgsync_del {
+  margin-left: 10px;
+  vertical-align: -1px;
+  color: #eee;
+
+  &:hover,
+  &.on {
+    color: darkred;
+  }
+}
+
+
+a.epgsync_ins {
+  position: relative;
+  top: -15px;
+  opacity: 0;
+
+  &:hover,
+  &.on {
+    opacity: 1;
+    color: #0b0;
+  }
+}
+
+
+
+
+a#new_window {
+  margin-right: 10px;
+}
+
+
+table#epg_table {
+
+  td.tframe {
+    width: 1px;
+    color: #ccc;
+  }
+  th.tframe {
+    width: 44px;
+  }
+  td.err_dngr { color: #f00; }
+}
+
+
+
+div.btnbar.mktplan {
+  margin-bottom: 0;
+  margin-top: 20px;
+
+  div.search {
+    width: 300px;
+  }
+}
+
+
+#mktplan_search_reset {
+  font-size: 150%;
+  margin-left: 7px;
+}
+#mktplan_search_result {
+  font-size: 150%;
+  margin-left: 20px;
+}
+span.mktplan_search_blockcpt {
+  display: none;
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+}
+
+
+table.mkt_hourly {
+  margin-top: 20px;
+
+  tr:first-child td {
+    border-top: none !important;
+  }
+  tr.faul td {
+    color: #c00;
+  }
+  td.hourly_mmss {
+    font-weight: bold;
+  }
+  div.percent {
+    width: 50px;
+    text-align: right;
+  }
+  div.hourly.wrap {
+    width: 360px;
+    background-color: #ddd;
+  }
+  div.hourly.percent {
+    background-color: #88d088;
+  }
+  tr.faul div.hourly.percent {
+    background-color: #d05a60;
+  }
+}
+

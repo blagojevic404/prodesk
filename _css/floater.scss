@@ -1,0 +1,79 @@
+// HANGING BUTTONS - LINKS
+// Used in epg dtl and mdf_multi and admin/lng.
+
+@import 'base';
+
+
+.ghost { // th & td
+  padding:0 !important;
+  width:0 !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
+  position: relative;
+}
+
+div.floater-outside { position: relative; width: 0; height: 0; }
+
+div.floater-inside {
+  position: absolute;
+
+  a { width: 20px; display: inline-block; opacity: 0.2; }
+  a:hover { opacity: 1; }
+  &.left .glyphicon { font-size: 17px; }
+  &.right { padding: 3px 0; font-size: 17px; }
+
+}
+
+
+
+// LNG
+
+table.lng div.floater-inside {
+  &.left { left: -25px; top: -11px; }
+  &.right { right: -25px; top: 3px; }
+}
+
+td.ghost span.linenumber {
+  @include abs-top(5px, -70px);
+  opacity: 0.2;
+}
+
+
+// MDF_MULTI
+
+table.epg_mdf div.floater-inside {
+
+  &.left {
+    left: -27px;
+    top: -32px; }
+
+  &.right {
+    right: -55px;
+    top: -12px;
+
+    .glyphicon-duplicate { font-size: 15px; }
+    a:first-child { margin-right: 5px; }
+  }
+}
+
+
+// EPG/SCNR #epg_table
+table#epg_table {
+
+  div.floater-inside.left { left: -27px; top: -28px; }
+
+  div.floater-inside.right {
+    right: -49px; top: -12px;
+
+    .glyphicon-cog { font-size: 18px; }
+    a:first-child { margin-right: 2px; }
+  }
+
+  &.recycle div.floater-inside.right {
+    right: -51px; top: -14px; font-size: 20px;
+
+    a { opacity: 1; }
+    a:first-child { margin-right: 5px; }
+  }
+}
+

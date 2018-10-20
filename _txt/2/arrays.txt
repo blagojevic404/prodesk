@@ -1,0 +1,323 @@
+[languages]
+1 YU /ћир/
+2 YU /lat/
+3 Ruski
+4 Engleski
+[/languages]
+
+[channel_types]
+1 TV
+2 Radio
+[/channel_types]
+
+[log_actions]
+1 Pišem
+2 Izmjene
+3 Briši
+4 Korpa
+5 Vrati
+6 Kopija
+7 Premjesti
+60 Ekipa
+61 Snimak
+62 Napomena
+63 Shema
+[/log_actions]
+// keys 100-110 are reserved for phases
+
+
+
+
+
+
+
+
+
+
+[epg_line_types]
+1 Emisija
+2 Vijest
+3 Marketing
+4 Promocija
+5 Klip
+6 Zadatak
+7 Uživo
+8 Napomena
+9 Prostor
+10 Segment
+11
+12 Film
+13 Serija
+14 Link
+20 Atom
+[/epg_line_types]
+
+[epg_view_types]
+0 Lista
+1 Stablo
+2 EGO
+6 Ingest
+4 Web
+8 Marketing <span class="glyphicon glyphicon-piggy-bank"></span>
+9 Promocija <span class="glyphicon glyphicon-bullhorn"></span>
+10 Film <span class="glyphicon glyphicon-sunglasses"></span>
+11 Export <span class="glyphicon glyphicon-export"></span>
+5 Korpa <span class="glyphicon glyphicon-trash"></span>
+[/epg_view_types]
+
+[scnr_view_types]
+0 Lista
+1 Stablo
+3 Skript
+2 EGO
+6 Snimci
+7 Prompter
+5 Korpa <span class="glyphicon glyphicon-trash"></span>
+[/scnr_view_types]
+
+[epg_crew_types]
+1 Urednik
+2 Voditelj
+3 Realizator
+4 Producent
+5 Novinar
+6 Snimatelj
+7 Montažer
+8 Ton-majstor
+9 Video-mikser
+10 EGO
+11 Tehničko vođstvo
+12 Glavni urednik
+13 Šef deska
+[/epg_crew_types]
+
+[epg_material_types]
+1 Uživo
+2 Snimak
+3 Repriza-Snimak
+[/epg_material_types]
+
+[epg_mattyp_signs]
+1 <span class="glyphicon glyphicon-facetime-video"></span>
+2
+3 R
+[/epg_mattyp_signs]
+
+[epg_note_types]
+1 Napomena
+3 Upozorenje
+[/epg_note_types]
+
+[tmpl_sort]
+0 Po vremenu (ID)
+1 Po abecedi
+[/tmpl_sort]
+
+[epg_cover_types]
+1 Potpis
+2 Krol
+3 Tekst blok
+4 Grafika
+5 Grafika (mala)
+6 Letvica
+7 Odjavna špica
+8 Pozadina
+9 Inserter
+10 SKOP (Inserter)
+[/epg_cover_types]
+
+[epg_clp_ctgz]
+1 Marketing
+2 Promocija
+3 Emisije
+4 Program
+[/epg_clp_ctgz]
+
+[epg_clp_place]
+1 otvaranje
+2 zatvaranje
+3 otvaranje/zatvaranje
+[/epg_clp_place]
+
+[epg_prm_ctgz]
+1 Promo
+6 Obaveze
+7 Obaveze humanitarne
+2 Pregled programa
+3 Večeras na programu
+9 Večeras sa vama
+4 Dnevnik 2
+5 Dnevnik 3
+10 Srpska Danas
+8 Multipleks Palas
+11 Po potrebi
+[/epg_prm_ctgz]
+
+[epg_cvr_displays]
+1 samo nalozi vezani za datum
+2 samo nalozi po emisijama
+3 svi nalozi
+[/epg_cvr_displays]
+
+[epg_mktblc_positions]
+0 Prekid
+1 Pred
+2 Iza
+[/epg_mktblc_positions]
+
+[epg_mktplan_wrapclips]
+0 obje (normalno)
+1 samo prednja
+2 samo zadnja
+3 bez obje
+[/epg_mktplan_wrapclips]
+
+[epg_mktplan_twinview_types]
+0 Veze <span class="glyphicon glyphicon-link"></span>
+1 Proba <span class="glyphicon glyphicon-thumbs-up"></span>
+2 Sinhronizacija <span class="glyphicon glyphicon-transfer"></span>
+[/epg_mktplan_twinview_types]
+
+
+[dsk_nwz_phases]
+1 Autor
+2 Urednik
+3 Lektor
+4 Gotovo
+[/dsk_nwz_phases]
+
+[status_stry]
+1 povezane vijesti
+2 slobodne vijesti
+[/status_stry]
+
+[dsk_atom_live_techtyp]
+0 Eksterno
+1 Studio
+[/dsk_atom_live_techtyp]
+
+[dsk_atom_live_techtyp_short]
+0 EKST
+1 GOST
+[/dsk_atom_live_techtyp_short]
+
+[atom_jargons]
+1 Osnovni
+2 Semantički
+3 Octopus
+4 Stari
+5 Tonski
+[/atom_jargons]
+
+[atom_jargons.1]
+1 KAM
+2 SKOP
+3 ŽIVO
+[/atom_jargons.1]
+
+[atom_jargons.2]
+1 Čitanje
+2 Snimak
+3 Uživo
+[/atom_jargons.2]
+
+[atom_jargons.3]
+1 ST
+2 PKG
+3 LIVE
+[/atom_jargons.3]
+
+[atom_jargons.4]
+1 KAM
+2 SKOP
+3 EKST
+[/atom_jargons.4]
+
+[atom_jargons.5]
+1 ŽIVO
+2 TON
+3 EKST
+[/atom_jargons.5]
+
+[dsk_flw_types]
+1 Pratim
+2 Zadato
+3 Autor
+4 Urednik
+[/dsk_flw_types]
+
+[prod_types]
+1 Vlastita
+2 Strana
+3 Nezavisna
+[/prod_types]
+
+
+
+
+
+[film_types]
+1 Film
+2 Mini-serija
+3 Serija
+[/film_types]
+
+
+[film_sections]
+1 Igrani
+2 Dokumentarni
+3 Dječiji
+9 Ostalo
+[/film_sections]
+
+
+[film_genres]
+1 Akcija
+2 Avantura
+17 Biografski
+15 Western
+6 Dječji
+5 Drama
+18 Istorijski
+3 Komedija
+4 Krimi
+11 Romansa
+10 Mjuzikl
+19 Misterija
+12 Naučna fantastika
+16 Porodični
+14 Ratni
+13 Triler
+7 Fantazija
+9 Horor
+8 Crno-bijeli
+21 Biografski
+22 Istorijski
+24 Misterija
+23 Muzika
+25 Sport
+30 Crtani
+31 Omladinski
+32 Obrazovni
+[/film_genres]
+
+
+[film_languages]
+1 domaći
+2 engleski
+3 ruski
+4 španski
+5 italijanski
+6 francuski
+7 njemački
+8 portugalski
+9 češki/slovački
+20 ostali
+[/film_languages]
+
+
+[hrm_contract]
+1 stalni
+2 privremeni
+3 autorski / po djelu
+[/hrm_contract]

@@ -1,0 +1,323 @@
+[languages]
+1 Югос /кир/
+2 Югос /лат/
+3 Русский
+4 Английский
+[/languages]
+
+[channel_types]
+1 ТВ
+2 Радио
+[/channel_types]
+
+[log_actions]
+1 Добавить
+2 Поправки
+3 Удалить
+4 Корзина
+5 Возврат
+6 Копия
+7 Переместить
+60 Экипаж
+61 Запись
+62 Заметка
+63 Схема
+[/log_actions]
+// keys 100-110 are reserved for phases
+
+
+
+
+
+
+
+
+
+
+[epg_line_types]
+1 Программа
+2 Новост
+3 Маркетинг
+4 Промоция
+5 Клип
+6 Задача
+7 Прямо
+8 Заметка
+9 Пробел
+10 Сегмент
+11 Покритие
+12 Фильм
+13 Серия
+14 Связь
+20 Атом
+[/epg_line_types]
+
+[epg_view_types]
+0 Список
+1 Древо
+2 Знакоген
+6 Ингест
+4 Веб
+8 Маркетинг <span class="glyphicon glyphicon-piggy-bank"></span>
+9 Самореклама <span class="glyphicon glyphicon-bullhorn"></span>
+10 Филм <span class="glyphicon glyphicon-sunglasses"></span>
+11 Експорт <span class="glyphicon glyphicon-export"></span>
+5 Корзина <span class="glyphicon glyphicon-trash"></span>
+[/epg_view_types]
+
+[scnr_view_types]
+0 Список
+1 Древо
+3 Скрипт
+2 Знакоген
+6 Записи
+7 Промптер
+5 <span class="glyphicon glyphicon-trash"></span>
+[/scnr_view_types]
+
+[epg_crew_types]
+1 Редактор
+2 Диктор
+3 Директор
+4 Продюсер
+5 Журналист
+6 Кинооператор
+7 Монтажи
+8 Звукооператор
+9 Видеомикшер
+10 Знакогенератор
+11 Мастер-инженер
+12 Главный редактор
+13 Начальник отдела новостей
+[/epg_crew_types]
+
+[epg_material_types]
+1 Прямо
+2 Запись
+3 Повтор
+[/epg_material_types]
+
+[epg_mattyp_signs]
+1 <span class="glyphicon glyphicon-facetime-video"></span>
+2
+3 Р
+[/epg_mattyp_signs]
+
+[epg_note_types]
+1 Заметка
+3 Предостережение
+[/epg_note_types]
+
+[tmpl_sort]
+0 По времени (ID)
+1 В алфавитном порядке
+[/tmpl_sort]
+
+[epg_cover_types]
+1 Титры
+2 Новостная лента
+3 Текстовый блок
+4 Графика
+5 Графика (маленькая)
+6 Планка
+7 Заключительные титры
+8 Фон
+9 Инсертер
+10 СКОП (Инсертер)
+[/epg_cover_types]
+
+[epg_clp_ctgz]
+1 Маркетинг
+2 Промоция
+3 Программы
+4 Расписание
+[/epg_clp_ctgz]
+
+[epg_clp_place]
+1 открывает
+2 замыкает
+3 открывает / замыкает
+[/epg_clp_place]
+
+[epg_prm_ctgz]
+1 Промо
+6 Промо внешний
+7 Промо гуманитарный
+2 Телепрограмма
+3 Сегодня вечером
+9 Вечером с вами
+4 Вести в 20:00
+5 Вести в 23:00
+10 Вести в 17:00
+8 Кинотеатр
+11 При необходимости
+[/epg_prm_ctgz]
+
+[epg_cvr_displays]
+1 только заказы для дату
+2 только заказы для программ
+3 все заказы
+[/epg_cvr_displays]
+
+[epg_mktblc_positions]
+0 Перерыв
+1 Перед
+2 После
+[/epg_mktblc_positions]
+
+[epg_mktplan_wrapclips]
+0 оба (нормально)
+1 только открывающий
+2 только закрывающий
+3 без обоих
+[/epg_mktplan_wrapclips]
+
+[epg_mktplan_twinview_types]
+0 Связи <span class="glyphicon glyphicon-link"></span>
+1 Проба <span class="glyphicon glyphicon-thumbs-up"></span>
+2 Синхронизация <span class="glyphicon glyphicon-transfer"></span>
+[/epg_mktplan_twinview_types]
+
+
+[dsk_nwz_phases]
+1 Автор
+2 Редактор
+3 Корректура
+4 Готово
+[/dsk_nwz_phases]
+
+[status_stry]
+1 используемые новости
+2 свободние новости
+[/status_stry]
+
+[dsk_atom_live_techtyp]
+0 Внешнее
+1 Студия
+[/dsk_atom_live_techtyp]
+
+[dsk_atom_live_techtyp_short]
+0 ВНЕ
+1 СТ
+[/dsk_atom_live_techtyp_short]
+
+[atom_jargons]
+1 Основной
+2 Семантический
+3 Octopus
+4 Старый
+5 Радио-Тон
+[/atom_jargons]
+
+[atom_jargons.1]
+1 КАМ
+2 СКОП
+3 ПРЯМО
+[/atom_jargons.1]
+
+[atom_jargons.2]
+1 Чтение
+2 Запись
+3 Прямо
+[/atom_jargons.2]
+
+[atom_jargons.3]
+1 ST
+2 PKG
+3 LIVE
+[/atom_jargons.3]
+
+[atom_jargons.4]
+1 КАМ
+2 СКОП
+3 ЕКСТ
+[/atom_jargons.4]
+
+[atom_jargons.5]
+1 СТ
+2 ТОН
+3 ЕКСТ
+[/atom_jargons.5]
+
+[dsk_flw_types]
+1 Следить
+2 Задача
+3 Автор
+4 Редактор
+[/dsk_flw_types]
+
+[prod_types]
+1 Собственная
+2 Чужая
+3 Независима
+[/prod_types]
+
+
+
+
+
+[film_types]
+1 Фильм
+2 Мини-серия
+3 Серия
+[/film_types]
+
+
+[film_sections]
+1 Художественный
+2 Документальный
+3 Детский
+9 Другое
+[/film_sections]
+
+
+[film_genres]
+1 Боевик
+2 Приключения
+17 Биография
+15 Вестерн
+6 Детский
+5 Драма
+18 История
+3 Комедия
+4 Детектив
+11 Мелодрама
+10 Мюзикл
+19 Мистерия
+12 Фантастика
+16 Семейный
+14 Военный
+13 Триллер
+7 Фэнтези
+9 Ужасы
+8 Фильм-нуар
+21 Биография
+22 История
+24 Мистерия
+23 Музыка
+25 Спорт
+30 Мультфильм
+31 Молодежный
+32 Образовательный
+[/film_genres]
+
+
+[film_languages]
+1 YU
+2 английский
+3 русский
+4 испанский
+5 итальянский
+6 французский
+7 немецкий
+8 португальски
+9 чешский / словацкий
+20 другой
+[/film_languages]
+
+
+[hrm_contract]
+1 постоянный
+2 срочный
+3 обслуживание
+[/hrm_contract]

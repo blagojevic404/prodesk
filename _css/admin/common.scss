@@ -1,0 +1,122 @@
+@import '../base';
+
+
+pre.log {
+  font-family: Tahoma, sans-serif;
+  font-size: 100%;
+
+  &.nowrap {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    word-break: normal;
+    word-wrap: normal;
+    height: 520px;
+  }
+}
+div.log {
+  font-size: 10px;
+
+  &.fsize {
+    text-align: right;
+    margin: -17px 0 3px 0;
+  }
+}
+
+
+
+// FTP
+
+div.code,
+div.ftp {
+  background-color: $field-bg;
+  border-radius: 4px;
+}
+
+div.ftp {
+
+  a.disabled {
+    color: $text-inactv;
+  }
+  div.row {
+    margin-bottom: 10px;
+
+    div.name {
+      font-size: 110%;
+    }
+  }
+}
+
+
+div.head {
+  font-size: 110%;
+  border-radius: 4px 4px 0 0;
+  background-color: #999;
+  color: #fff;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  span.cnt{
+    margin-left: 100px;
+    font-size: 80%;
+
+    span.glyphicon {
+      margin-left: 5px;
+      margin-right: 15px;
+      font-size: 80%;
+    }
+  }
+}
+
+
+div.ftp span.glyphicon,
+div.head span.glyphicon {
+  margin-right: 7px;
+}
+
+.mod_time {
+  float: right;
+  padding: 0 7px;
+  background-color: #d9edf7;
+  color: $text-black;
+  text-transform: uppercase;
+  border: 1px solid #c5d9ed;
+}
+
+li.ftp_limit_sw a {
+  cursor: default;
+  color: $text-black;
+  text-decoration: none;
+}
+
+
+
+// AD
+
+div.panel {
+
+  div.detaildiv ul {
+    margin-left: -15px;
+  }
+  label.control-label {
+    padding-left: 0;
+  }
+}
+
+div.detaildiv a.helper {
+  padding-left: 7px;
+  font-size: 65%;
+  vertical-align: 5px;
+}
+
+div.btnbar div.search {
+  width: 300px;
+
+  &.pull-left {
+    margin-right: 15px;
+  }
+}
+
+table#tbl_ad tr th {
+  border-top: none;
+}

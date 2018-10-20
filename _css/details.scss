@@ -1,0 +1,27 @@
+// page-specific css for *details* pages
+
+@import 'base';
+
+
+
+
+div.headbar {
+  margin-bottom: 20px;
+}
+
+div.agency_usage a {
+  font-size: 120%;
+  margin: 0 12px;
+}
+
+div.block_usage span {
+  font-style: italic;
+  margin-left: 15px;
+}
+
+table.item_usage tr.sleep a {
+  color: #777;
+}
+
+
+
